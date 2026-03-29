@@ -1,0 +1,1 @@
+これは地球代謝OS（PMOS）構築プロジェクトです。私のObsidian Vaultにある4,800のノートをAntiGravityプロトコルに従って解析し、GitHubに構造化して出力することが任務です。

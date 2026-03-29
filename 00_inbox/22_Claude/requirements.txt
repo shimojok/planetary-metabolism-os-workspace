@@ -1,0 +1,32 @@
+# PMOS v2.0 依存パッケージ
+# pip install -r requirements.txt で一括インストール
+
+# LLM
+openai>=1.30.0
+anthropic>=0.25.0
+
+# グラフDB（Week2から使用）
+neo4j>=5.19.0
+
+# ベクトルDB
+chromadb>=0.5.0
+
+# 数値計算・可視化
+numpy>=1.26.0
+scipy>=1.13.0
+matplotlib>=3.8.0
+networkx>=3.3.0
+
+# ML / 埋め込み
+sentence-transformers>=3.0.0
+scikit-learn>=1.4.0
+
+# エージェントフレームワーク（Week3から使用）
+langgraph>=0.1.0
+langchain>=0.2.0
+langchain-openai>=0.1.0
+
+# ユーティリティ
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+rich>=13.7.0

@@ -1,0 +1,360 @@
+
+user@DESKTOP-4HV9UQO MINGW64 ~
+$ # 1. フォルダへ移動
+cd /e/PM-OS/Planetary-Metabolism-OS
+
+# 2. 変数を設定
+USER="shimojok"
+REPO="Planetary-Metabolism-OS"
+BRANCH="main"
+
+# 3. 実際のファイルを検索してURLに変換（findコマンドを使用）
+find . -name "*.md" | sed "s|^\./|https://raw.githubusercontent.com/$USER/$REPO/$BRANCH/|" > ai_input_urls.txt
+
+user@DESKTOP-4HV9UQO MINGW64 /e/PM-OS/Planetary-Metabolism-OS (main)
+$ cat ai_input_urls.txt
+https://raw.githubusercontent.com/shimojok/Planetary-Metabolism-OS/main/docs/strategy/GATES_RESPONSE.md
+https://raw.githubusercontent.com/shimojok/Planetary-Metabolism-OS/main/docs/strategy/ROCKEFELLER_RESPONSE.md
+https://raw.githubusercontent.com/shimojok/Planetary-Metabolism-OS/main/README.md
+
+user@DESKTOP-4HV9UQO MINGW64 /e/PM-OS/Planetary-Metabolism-OS (main)
+$ # 1. ワークスペースのフォルダへ移動
+cd /e/PM-OS/Planetary-Metabolism-OS-Workplace
+
+# 2. 変数を設定（今回の統合リポジトリ用）
+USER="shimojok"
+REPO="planetary-metabolism-os-workspace"
+BRANCH="main"
+
+# 3. 全フォルダをスキャンしてURLリストを生成
+find . -name "*.md" | sed "s|^\./|https://raw.githubusercontent.com/$USER/$REPO/$BRANCH/|" > workspace_all_urls.txt
+bash: cd: /e/PM-OS/Planetary-Metabolism-OS-Workplace: No such file or directory
+
+user@DESKTOP-4HV9UQO MINGW64 /e/PM-OS/Planetary-Metabolism-OS (main)
+$ cat workspace_all_urls.txt
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/docs/strategy/GATES_RESPONSE.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/docs/strategy/ROCKEFELLER_RESPONSE.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/README.md
+
+user@DESKTOP-4HV9UQO MINGW64 /e/PM-OS/Planetary-Metabolism-OS (main)
+$ cd /e/PM-OS
+python get_urls.py
+Traceback (most recent call last):
+  File "E:\PM-OS\get_urls.py", line 1, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+
+user@DESKTOP-4HV9UQO MINGW64 /e/PM-OS
+$ cd /e/PM-OS
+python get_urls.py
+Scanning: root...
+Scanning: AGRIX...
+Scanning: AI Development...
+Error accessing AI Development: URL can't contain control characters. '/repos/sh
+imojok/planetary-metabolism-os-workspace/contents/AI Development?ref=main' (foun
+d at least ' ')
+Scanning: Climate...
+Scanning: HealthBook...
+Scanning: MBT-KanpoLibrary...
+Scanning: MBT55-HyperCycle...
+Scanning: PBPE...
+
+成功！ 293 件のURLを workspace_all_urls_final.txt に保存しました。
+
+user@DESKTOP-4HV9UQO MINGW64 /e/PM-OS
+$ cat workspace_all_urls_final.txt
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/10. 状態推論（診断）：今の土壌は何を求めているか？.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/11. AgriWare™ 推論エンジンの実装構造.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/17. AgriWare™ 推論エンジンのロジックフロー（Python構造設計）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/18. Safely Chain™ 記帳プロトコルの設計.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/24. M³-BioSynergy 数理モデルの設計.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/25. エッジ・インターフェースの設計（Execution Protocol.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/26. 広域アグリゲート・システムの設計（Global Integration）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/27. Human-Soil Health Linkage の設計（Core Logic）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/29. ジェネシス・ブロック：主要起動パラメータ.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/3-1. 案件用語確認Prompt 01012026.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/3-10. AGRIX Platform：価値の蒸留と資産形成プロセス（SHF概念図）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/3. 「Claim Engine」の論理設計（権利・配分ルール）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/3. 統合データベース・スキーマ (JSON_SQL).md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/30. アグリファイナンスの再定義：コストからアセットへ.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/4. AGRIX Planetary OS 完成パッケージ（Ver 6.0）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/5. 統合的価値設計への考え方（ロジックの整理）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/6. 「Claim Engine」の論理設計（権利・配分ルール）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/7. AGRIXを動かす3つの核心（ミニマル・コア）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/7. 「動的フェノタイピング」に基づくAzure AI診断エンジンの詳細設計.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/8. Azure実装用「M³モデル」シミュレーション・スクリプト（Python）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/8. 既に確立されているコアアルゴリズム.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/9. 微生物・生態系シミュレーション (SciPy_NumPy).md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/AGRIX Platform 2.0：フェノタイピング駆動型 土壌-作物-微生物 ハイパーサイクル制御システム.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/AGRIX Platform Interactive Demo 設計コンセプト DeepSeek 1209.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/AGRIX Platform： フェノタイピング駆動型 土壌生態系オペレーティングシステム.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/AGRIX Platform： 統合的自然資本価値循環エコシステム.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/Earth Phenomics、 Planetary Operating System.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GGH-1. GitHubリポジトリの「心臓部」を定義する.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GGH-10. `models_agrix_core.py` (因果エンジン・プロトタイプ).md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GGH-11. `whitepaper.md` (Full Draft).md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GGH-12. Medium vs. Notion 比較分析.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GGH-13. Medium Article Draft.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GGH-14. GitHub側の「相互リンク」設定（README.md の修正）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GGH-15. LinkedInが最強のチャネルになる3つの理由.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GGH-16.  「三位一体」同時公開パッケージ案.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GGH-17. GitHubセット（技術的正本）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GGH-18. リポジトリ構造について.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GGH-19. GitHubリポジトリの最終構成案.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GGH-2. GitHubリポジトリの「ガワ（箱）」を定義する.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GGH-20. 再確認１・２・３への回答.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GGH-21. この「最終確定版」を推奨する理由.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GGH-22. LICENSE (Apache License 2.0).md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GGH-23. リポジトリ名.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GGH-24. Description（概要）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GGH-3. GitHub `README.md` ドラフト.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GGH-4. 修正版 GitHub `README.md` ドラフト.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GGH-5. 「技術・因果」を先行させ、AIの学習を優先する.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GGH-6. `whitepaper.md` の戦略的骨子.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GGH-7. `whitepaper.md` Draft (Excerpt).md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GGH-8. なぜ「英文」が正本なのか.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GGH-9. `models_agrix_core.py` (Draft).md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GHF-.7.Readme重複.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GHF-10. リポジトリ確認.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GHF-11. GitHub コミットメッセージ (Commit Message & Description).md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GHF-12. GitHub ファイル構成・作業一覧（全12ファイル）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GHF-13. README.md の修正（ルート階層）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GHF-14. コード公開のデメリットとリスク.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GHF-15. Commit Message（概要）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GHF-16. core_hamada_engine.py.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GHF-17. 最初の「技術的信頼」の発生（即時 〜 1週間）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GHF-18. なぜGitHubがLinkedInメッセージを救うのか？.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GHF-19. LinkedIn プロフィール欄（About）の書き換え案.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GHF-20. LinkedIn URLをスマートにする方法（スマホ_PC共通）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GHF-20. プロフィール冒頭（About _ 自己紹介）の刷新案.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GHF-21. PMOS (Planetary Metabolism OS) 新リポジトリ構造.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GHF-21. プロフィール冒頭（About _ 自己紹介）の刷新案.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GHF-22. LinkedIn プロフィール（About）修正案.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GHF-23. BioNexus ３事業の画期的な価値.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GHF-24. PMOSにおける「生物学的循環」のデジタル実装構図.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GHF-25. AGRIX推論エンジン ＝ フェノミクスを実装したAgriWare.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GHF-6. 変更の意図とフォルダの役割.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GHF-8. BioNexus Holdings 表記.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GHF-9. 修正不要_物理的なフォルダ構造の再編.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GHF1. GitHubへの追加・関連付けプラン.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GHF2. Gistの内容をメインリポジトリに統合する.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GHF3. 投資家・財団が最も重視する「実効性（Proof of Code）」.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GHF4. リポジトリ構造の再編（Architecture 2.0）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GHF5. 究極のリポジトリ構造（リデザイン案）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GS-1. Planetary Metabolism OS「AQLA」の統合実装フェーズ.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GS-2. Googleへの提案戦略：Azureを超え「Google AI as Earth's Metabolic Brain」へ.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GS-3. 統合戦略：Dual-Cloud Metabolism OS.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GS-4. Tim Romero氏を活用した「AQLA」多角展開戦略.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GS-5. Google グローバル・サステナビリティ責任者.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GS-6. Kate Brandt女史へのアプローチ.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GS-7. 統合OS「AQLA」実装：直近の3フェーズ・アクションプラン.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GS-8. Tim Romero氏へのリファラル依頼（DM メール案）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GSG-10. 【Draft】AQLA _ AgriWare™ Technical White Paper.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GSG-11. GitHubリポジトリ構成案（Initial Commit）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GSG-12. README.md (The Global Standard).md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GSG-13.  `README.md` (戦略的トップページ).md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GSG-14.  `README.md` の全面刷新.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GSG-15. リポジトリの物理構造（Final Structure）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GSG-16. 1. `README.md` (最優先ファイル).md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GSG-17. 開発履歴という名のタイムスタンプ（証拠）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GSG-18. docs_jp.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GSG-19. アップロード時の設定案.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GSG-20. Commit Message (タイトル).md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GSG-21. 今回の末尾に提案する文言（案）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GSG-22. Deep Tech & Finance Edition.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GSG-23. whitepaper_summary.md (Hybrid Final Version).md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GSG-24. 新規作成用原稿.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GSG-25. system-blueprint.md.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GSG-27. 決定版：AQLA リポジトリ・ファイル構成.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GSG-28. 知的財産の核.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GSG-29. GitHubでの操作手順.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GSG-30. agriware-spec.md (Physical Layer).md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GSG-31. aqla-intelligence.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GSG-32. financial-model.py.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GSG-33. Commit Message (タイトル).md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GSG-34. いよいよ「実弾」の発射：Tim Romero氏への招待状.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GSG-35. Medium用記事：深掘りエッセイ（思想と論理）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GSG-36. Medium 記事案（全文ドラフト）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GSG-37. LinkedIn用：エグゼクティブ・テック層向け.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/GSG-9. 各Gemスレッドの進行状況と役割の統合.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/AGRIX/MBT Multi-Layered Value Cycle (MMVC) 構造図.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/Climate/5.1億トンの削減に向けて CG.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/Climate/5.1億トンの削減に向けてDeepSeep（再）1006.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/Climate/5.1億トン削減目標の実現性分析.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/Climate/AGRIX Project：5.1億トン削減に向けた事業プラン構成 Copilot 1006.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/Climate/AGRIX Project：5.1億トン削減事業プラン 資料構成案Copilot1006.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/Climate/AGRIX による温暖化抑制の優位性1205.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/Climate/G-7. 定量的事業規模：0.54兆円の投資で5.1億トンの市場を創出.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/Climate/GG-1. なぜGoogleなのか？：DeepMindとのシナジー.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/Climate/GG-2. Google Moonshot 提案：Project _Bio-Index.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/Climate/GG-3. 「Metabolic Android」のエコシステム構成.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/Climate/GG-4. 金融層の深掘り：PBPE × QOL保険のメカニズム.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/Climate/GP2-0. Metabolic Credit Engine (MCE).md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/Climate/GP2-1. Green Premium Reverser 設計案：脱炭素肥料の経済的合理性の証明.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/Climate/GP2-2.  「Green Premium Reverser」の数理ロジック（M³-BioSynergy統合版）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/Climate/GP2-3. PBPE ホワイトペーパー草案：惑星代謝OSによるグリーン・プレミアムの反転.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/Climate/GP2-4. Green Premium Reverser：Pythonシミュレーターの実装.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/Climate/GP2-5. Strategic White Paper_ Planetary Metabolism OS.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/Climate/GP2-6. グリーン・プレミアム反転シミュレーションの詳細（日本語解説）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/Climate/GP2-7. グリーン・プレミアム反転の可視化（インフォグラフィック案）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/Climate/GP201. 新スレッド開始用プロンプト.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/Climate/MBT55による炭素排出ゼロ肥料のグリーン・プレミアム.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/Climate/MBT55による炭素排出ゼロ肥料のグリーン・プレミアム考察.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/Climate/MBTグリーンプレミアムDeepSeek_b.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/Climate/MBTグリーンプレミアム算出 ChatGPT.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/Climate/MBTグリーンプレミアム算出 Copilot.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/Climate/MBTグリーンプレミアム２ChatGPT.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/Climate/☪️5.1億トンの温室効果ガス削減、カーボン・フットプリント削減、グリーンプレミアム算出、ROIの算出 DS 1013.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/Climate/☪️MBT 炭素排出ゼロ肥料 グリーン・プレミアム計算モデル (MBT55-Framework) DeepSeek 1001.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/Climate/☪️MBTグリーンプレミアム算出 DeepSeek.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/Climate/リグニンのMBT55活用と温暖化抑制 DS.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/Climate/保険会社向け 統合気候変動対策事業計画： 「AquaGrid & CW&OC インパクト投資イニシアチブ」DS.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/Climate/微生物活性による温暖化新対策考察.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/Climate/気候変動とMBT55の科学的・応用的ポテンシャル総覧(WP) CG.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/Climate/温暖化抑制と食料安全保障への貢献0621.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/Climate/炭素排出ゼロ肥料 グリーン・プレミアム計算モデルDS (MBT55-Framework).md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/HealthBook/GH8-1. 英語版 GitHub リポジトリ構成案 (Proposed Repository Structure).md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/HealthBook/GH8-10. GitHub Upload Guide (Gitコマンド集).md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/HealthBook/GH8-11. AI-Augmented Bio-Alchemist.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/HealthBook/GH8-12. スクリーニング・システムの基本ロジック.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/HealthBook/GH8-13. 戦略的統合ステップ（GitHubへの実装）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/HealthBook/GH8-14. 統合エンジンの実装：core screening_engine.py.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/HealthBook/GH8-2. HealthBook Core Logic (English Version) - Metabolic Intelligence Engine.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/HealthBook/GH8-3. README.md (Global Strategy Version).md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/HealthBook/GH8-4. setup_repository.py.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/HealthBook/GH8-5. Metabolic Intelligence Dataset (Sample Schema).md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/HealthBook/GH8-6. Data Structure Implementation.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/HealthBook/GH8-7. Full Data Injection Script.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/HealthBook/GH8-8. Azure Ready Demo.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/HealthBook/GH8-9. GitHub Repository_ About (English).md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/HealthBook/HB1. 主要な推論エンジンのタイプ.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/HealthBook/HB10. 現在の実装状況.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/HealthBook/HB11. アルゴリズムの詳細実装（浜田式診断ロジック）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/HealthBook/HB12. 全体構造の簡易マップ.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/HealthBook/HB13. 浜田式エンジン主要部の実装計画.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/HealthBook/HB14. Pydroidデモシステム.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/HealthBook/HB2. 推論エンジン設計（３ファイルPrompt）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/HealthBook/HB3. 基本の使い方.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/HealthBook/HB4. コードの構造詳細.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/HealthBook/HB5. HealthBook Platform 統合アーキテクチャ（詳細Prompt）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/HealthBook/HB6. HealthBook Platform 実装工程計画書.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/HealthBook/HB7. Pydroidでも動作するシンプルなデモシステム_MS折衝用.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/HealthBook/HB8. コードの３分割.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/HealthBook/HB9. 拡張計画_ HealthBook Platform 実用化フェーズ.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/HealthBook/HealthBook 事業価値算出 ChatGPT 0928.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/HealthBook/HealthBook 全代謝経路解析ChatGPT0421.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/HealthBook/HealthBook 疾病リスク分析プログラミング Copilot.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/HealthBook/HealthBook 疾病リスク分析プログラミングとシステム構成説明書 DeepSeek.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/HealthBook/HealthBook、MBT Herbal Probiotics事業買収による戦略的優位性と企業価値向上0721.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/HealthBook/MBT Probiotics & HealthBook事業価値 Gemini 1027.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/2-1. MBT漢方ライブラリー Day2 進捗レポート.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/2-1. MBT漢方代謝ライブラリー構築：詳細プロセス Gemini 1229.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/2-10. 全294方剤サマリーリスト（抜粋・構造化データ）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/2-11. MBT漢方代謝ライブラリー V1.0：全方剤マスターデータ（CSV形式）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/2-13. MBT漢方代謝ライブラリー V1.0：分割出力【第1ブロック：あ〜さ行】.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/2-14. MBT漢方代謝ライブラリー V1.0：分割出力【第2ブロック：た〜は行】.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/2-15. MBT漢方代謝ライブラリー V1.0：分割出力【第3ブロック：ま〜わ行・補足】.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/2-16. MBT漢方代謝ライブラリー V1.0：JSON定義書（コア・スキーマ）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/2-17. 戦略的白書：グローバル・ヘルスにおける「生体内製薬（In Vivo Bio-Manufacturing）」の実現.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/2-18. F151〜F294までのデータについて.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/2-19. ☪️MBT漢方代謝推論エンジン：システム機能構造.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/2-2. MBT漢方代謝ライブラリー：詳細データ定義 (JSON Schema).md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/2-2. 生薬の漢方的効能（補気・活血・清熱など）Gemini.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/2-20. MBT漢方代謝ライブラリー V1.0：分割出力【第4ブロック：F151〜F200】.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/2-21. MBT漢方代謝ライブラリー V1.0：分割出力【第5ブロック：F201〜F294】.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/2-22. MBT漢方代謝ライブラリー V1.0：完全版JSONマスター（構成案）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/2-23. MBT漢方代謝ライブラリー拡張：ファイトケミカル・モジュール（JSON）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/2-24. PTFI vs. MBT漢方代謝ライブラリー：決定的差異.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/2-26. 戦略的白書：MBT55 ✕ ファイトケミカル ✕ 漢方.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/2-27. 戦略的白書：MBT55 ✕ 全人類代謝インフラ構想.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/2-29. MBT漢方代謝ライブラリー V1.2 (Complete Edition).md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/2-3. MBT漢方代謝ライブラリー：【清熱・解毒系】クラスター.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/2-3. 生薬の漢方的効能（補気・活血・清熱など）の説明.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/2-30. 「簡素なコード」は「思考のルール」である.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/2-31. MBT漢方代謝ライブラリー V1.2：入力・出力事例集.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/2-32. MBT漢方代謝ライブラリー V1.2：現代的課題への対応事例.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/2-33. HealthBook 疾病リスク分析エンジンの高度化.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/2-34. 「Yes No」の背後に隠された「代謝の分岐点」の解析.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/2-35. 疾病リスク分析エンジンの設計（V2.0）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/2-36. ハイブリッド方式による「プロフェッショナルな出来栄え」の具体例.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/2-37. なぜ「JSONデータ ＋ Pythonエンジン」が最強なのか.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/2-38. ハイブリッド方式（JSONデータ ＋ Pythonエンジン）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/2-39. ナレッジ・マスター（JSON）の設計方針.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/2-4. MBT漢方代謝推論エンジン：アルゴリズム「Metabolon-K」.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/2-4. 代謝クラスターに基づく解析の深化.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/2-40. データの構造化：ナレッジマスター（JSON）の生成.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/2-41. HealthBook 疾病リスク分析プラットフォーム：UI_UX設計案.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/2-42. プロトタイプの画面構成と機能.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/2-43. 主要10疾患と問診項目のセレクション（デモ用）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/2-44. デザイン・コンセプト： Bio-Digital Elegance.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/2-45. 【ファースト・デモ：実装プラン】.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/2-46. 知識のデジタル化（JSONコンバット）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/2-47. HealthBook 統合診断ダッシュボード V2.0 (First Demo).md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/2-6. MBT漢方代謝ライブラリー：データベース（第1ブロック）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/2-8. MBT漢方代謝ライブラリー：データベース（第2ブロック：さ〜な行）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/2-9. MBT漢方代謝ライブラリー：データベース（第3ブロック：は〜わ行）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/3-49. 統合推論エンジン (Python) の実装.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/3-50. HealthBook：200項目フェノミクス・シミュレーション.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/MBT55 × reCLA 腸内代謝モデル：構造概要 CP.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/MBT55が持つバイオコントロール機能_チョーク病（Chalkbrood Disease）の制御.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/MBT55によるCCD(チョーク病)解決メカニズム DS.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/MBT55による蜜蜂のチョーク病、シイタケの青カビの防御.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT-KanpoLibrary/感染症防治におけるMBT55の核心的価値 DS.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT55-HyperCycle/1. MBT55の新たな可能性.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT55-HyperCycle/1. M³-BioSynergy理論と元素転換モジュールの統合.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT55-HyperCycle/2. 特許資料から見えること・見えないこと（依頼文１への回答）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT55-HyperCycle/3. MBTハイパーサイクルの理論的優位性と体系化.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT55-HyperCycle/4. M³‑BioSynergy理論に「元素転換モジュール」を組み込む.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT55-HyperCycle/5. 「M³-BioSynergy System」実装のためのパラメータ値.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT55-HyperCycle/AGRIX 土壌ミネラル・パラメータ：ニトロゲナーゼ活性最大化.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT55-HyperCycle/GP-1. 地球生態ハイパーサイクル型・土壌再生工学）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT55-HyperCycle/GP-2. 技術の階層整理.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT55-HyperCycle/GP-3. ハイパーサイクルの本来の定義（再確認）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT55-HyperCycle/GP-4. Planetary Metabolic Hypercycle（PMH）数理モデル.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT55-HyperCycle/GP-5. 作物生育の最小構成要素（再定義）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT55-HyperCycle/GP-6. 植物―微生物共培養系で必須となる主要代謝経路.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT55-HyperCycle/GP-7. AgriWare™ の役割.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT55-HyperCycle/GP-8. AgriWare™ 全体アーキテクチャ（概念）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT55-HyperCycle/GP-9. AgriWare™ 構築可否.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT55-HyperCycle/MBT55による廃棄物処理の革新：アパレル廃棄物と段ボールを「炭素隔離資材」へ変える DS.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT55-HyperCycle/MBT55による有機廃棄物の分解・発酵プロセスの詳細な考察DS.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT55-HyperCycle/MBT55の「生態学的ハイパーサイクル」モデルの理論的原型 ChatGPT1216.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT55-HyperCycle/MBT55のアパレル廃棄物分解ポテンシャル DS.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT55-HyperCycle/MBT55のポテンシャルまとめ（重要）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT55-HyperCycle/MBT55ハイパーサイクル理論 DeepSeek.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT55-HyperCycle/MBT55動画資料の科学的評価 DS.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT55-HyperCycle/MBT55微生物群によるファイトケミカルの分解・代謝と有用性 Gemini 1023b.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT55-HyperCycle/MBT55微生物群による化学肥料の削減 DS.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT55-HyperCycle/MBT55微生物群の代謝機能 ChatGPT.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT55-HyperCycle/MBT55微生物群の代謝物の機能 Gemini.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT55-HyperCycle/MBT55微生物群の土壌中の分布(比率).md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT55-HyperCycle/MBT55微生物群の有用性と炭素循環・変換の可能性.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT55-HyperCycle/MBT55微生物群の機能マトリクスCPT.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT55-HyperCycle/MBTシリーズ開発コンセプト.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT55-HyperCycle/MBT堆肥・発酵肥料に含まれる糸状菌、放線菌.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT55-HyperCycle/M³-BioSynergy System、選択培養、有機物選別によるMBTシリーズの開発.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT55-HyperCycle/M³-BioSynergy理論：MBT55システムの統合モデル.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT55-HyperCycle/M³-BioSynergy理論：MBT55システムの統合モデルCP.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT55-HyperCycle/データ分析に基づくMBT55技術の有害物質除去の実証効果 DS.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT55-HyperCycle/地球生態学の視点から見たMBT55生態学的ハイパーサイクルの理論的深化 DS1216.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT55-HyperCycle/次期MBT ソリューション開発 Copilot.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT55-HyperCycle/理想的な土壌の微生物群の比率.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT55-HyperCycle/生態学的ハイパーサイクルの現時点での理論化.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/MBT55-HyperCycle/第2章「MBT55微生物群によるカーボン循環再構築 ― 科学的基盤とSOC形成モデル」コード.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/PBPE/19. PBPE分配アルゴリズムの設計 (Distribution Logic).md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/PBPE/20. AGRIX再生基金の自律運用モデル（MABCリサイクル）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/PBPE/3. AGRIX × SafelyChain × MABC × 金融の「結合図」.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/PBPE/4. PBPEの「発行ロジック」と「権利の分離」の明確化.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/PBPE/6. Planetary Bio‑Phenome Engine（PBPE）モデル定義文.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/PBPE/6. インパクト配分ロジックの数理モデル.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/PBPE/7. PBPE：金融機関向けホワイトペーパー構成案（完全版）.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/PBPE/HAT-1. PBPE Coffee Financial Product Slide (English Summary) Gemini 0107.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/PBPE/HAT-2. 収支シミュレーション：「Farmer's Heritage Fund (SHF)」10年間の資産形成.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/PBPE/HAT-3. White Paper_ The AGRIX Protocol.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/PBPE/HAT-4. 金融・資産性を強調するネーミング.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/PBPE/HAT-5. 独創的ネーミング体系：The SHF Multi-Layer Brand.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/PBPE/HAT-6. SHF_The Farmer's Heritage Fund.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/PBPE/HAT-7. AGRIX × Insurance 戦略的提言.md
+https://raw.githubusercontent.com/shimojok/planetary-metabolism-os-workspace/main/README.md
+
+user@DESKTOP-4HV9UQO MINGW64 /e/PM-OS

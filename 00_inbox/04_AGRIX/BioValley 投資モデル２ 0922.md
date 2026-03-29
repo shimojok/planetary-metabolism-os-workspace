@@ -1,0 +1,26 @@
+AGRIX ProjectのPitchDecksを作成します。AGRIX Projectは下記の説明の通り、守備範囲が広く、シンプルに表すことができません。よって、究極の優位性と特徴のみを説明し、詳細をWhite Paperで説明しようと思います。そこで、BioNexus社の資金調達責任者の立場で、究極のシンプルなPitchDecksの項目、構成を作成してください。
+
+下記に、BioNexusのAGRIX Projectの説明をします。
+
+"AGRIX Project" by BioNexus Holdings
+
+今回設立するBioNexus Holdings社は、AgriWare, SafetyChain, AgriChainで構成するAGRIX Platformサービスを行なうアグリ情報&金融サービス会社です。BioNexusの目的は、世界の食料システムの変革と世界中の劣化土壌を修復し温暖化抑制にチャレンジすることにあり、そのひとつの手段がMBT55(NB菌)とMBT発酵機で構成する"MBT Sustainable Cycle"をコアとする農業法人のBioValleyの展開です。
+
+MBT Sustainable Cycleは、全ての食品残渣や家畜の排泄物を24時間で発酵・分解し機能性堆肥と飼料を製造します。MBT Sustainable Cycleは、廃棄物処理コストの削減、輸入肥料を上回る生産性と品質向上を可能とする"MBT機能性堆肥"の国産化、立ち遅れるアフリカの農業生産力の向上、農業所得の向上、食料問題と栄養改善、鮮度保持力の向上による食品ロスの削減（30％以上）を実現するなど各国の農業経済の発展に貢献します。
+
+BioNexusは、BioValleyをアフリカ各国に設立し、自主運営とMBTサブスクリプションを含め、3,000か所のBioValley Networkの構築を目指します。
+さらに、BioNexusは、アフリカ各地でのMBT Sustainable Cycleと、それに付随するグリーンマニュファクチャリング事業を展開するBiovalleyのほかに、AquaTower、陸上養殖、FilmFarming事業を予定しています。
+
+BioValley Networkは、BioNexusが行うAGRIX Platformサービス（MBT技術情報や栽培管理システムを提供するAgriWare、農産物の流通支援プラットフォームである"World Foods Open Market"、取引支援システムのAgriChain）により、資材調達、生産、加工、取引、流通、回収までシームレスなアグリビジネスを行うことができます。
+
+世界の劣化した農地は30億haにもおよびますが、AGRIX Projectは、MBT Sustainable Cycleの展開により、アフリカ全土の劣化土壌を５年程度で修復し、土壌炭素隔離を推し進め、温暖化抑制にも貢献し、炭素クレジットの収益も確保します。また、AGRIX Projectは、世界中の食品会社や畜産・酪農企業にもメリットを与え、また、食料備蓄を通じ、災害時の食料供給や各国政府の食料安全保障にも貢献します。
+
+AGRIX Projectは、温暖化抑制、食料経済、情報技術、バイオテクノロジーの発展に貢献し、ヘルスケア分野にも影響し、医療費削減まで実現するなど、社会的インパクトと収益性に優れ、投資案件としても有望であり、AgriWare APIによる情報サービスは、保険会社、投資会社、食品会社、政府機関、国際機関、機関投資家にメリットを提供します。
+
+AGRIX Platformを構成する、AgriWare/Phenotypingアルゴリズム、SafetyChain、AgriChain/World Foods Open Marketなどのシステムは、アフリカのコンピュータサイエンス学部を選別し共同開発を進め、この開発そのものを事業化し、アフリカのIT産業発展に寄与したいと考えています。
+
+BioValleyの基幹拠点は、ナイジェリア、ケニア、南アフリカの３カ国に置く予定ですが、BioNexus Holdings本部の拠点の検討中です。機能別に複数のブランチを設置しますが、本部機能を何処に置くのか決めかねています。なお、BioValleyは、インド、中国、東南アジア、米国、南米へも展開します。
+
+アフリカをはじめ、インド、東南アジアから世界へと展開するBioValleyで生産される農産物は、生産各国の食料問題を解決するとともに、AgriChain/World Foods Open Marketにより、世界市場へのアクセスを可能とします。
+
+PitchDecksの項目、構成と合わせて、上記の説明を考慮し、世界中のClimate Finance・保険会社・投資会社・各国政府へのアプローチ、アフリカなど各地の食料問題、ESG投資などの現況と、BioNexusの経営戦略を考慮し、最適な本部拠点の候補を出し、その理由を説明して下さい。

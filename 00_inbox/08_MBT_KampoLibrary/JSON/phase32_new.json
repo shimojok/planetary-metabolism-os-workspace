@@ -1,0 +1,540 @@
+{
+  "mbt_kampo_library": {
+    "version": "2.32.0",
+    "last_updated": "2026-02-25",
+    "total_formulas": 294,
+    "fully_defined": 151,
+    "phase": 32,
+    "priority": "medium",
+    "formulas": {
+      "F114": {
+        "id": "F114",
+        "name": "排膿散",
+        "category": "化膿性疾患・排膿",
+        "main_herbs": ["枳実", "芍薬", "桔梗"],
+        "components": {
+          "枳実": {
+            "phytochemicals": [
+              {
+                "name": "ヘスペリジン",
+                "type": "フラバノン配糖体",
+                "concentration_mg_per_g": "5.0-10.0",
+                "metabolic_pathway": "PATH_01",
+                "key_microbes": ["放線菌"],
+                "active_metabolite": "ヘスペレチン",
+                "mechanism": "消化管運動促進・抗炎症",
+                "clinical_effects": ["腹部膨満改善", "炎症抑制"],
+                "bioavailability": "中"
+              },
+              {
+                "name": "シネフリン",
+                "type": "アルカロイド",
+                "concentration_mg_per_g": "0.3-0.8",
+                "metabolic_pathway": "PATH_01",
+                "active_metabolite": "シネフリン",
+                "mechanism": "代謝促進",
+                "clinical_effects": ["血流改善"],
+                "bioavailability": "高"
+              }
+            ]
+          },
+          "芍薬": {
+            "phytochemicals": [
+              {
+                "name": "パエオニフロリン",
+                "type": "モノテルペン配糖体",
+                "concentration_mg_per_g": "3.0-6.0",
+                "metabolic_pathway": "PATH_01",
+                "key_microbes": ["放線菌"],
+                "active_metabolite": "パエオニフロリゲニン",
+                "mechanism": "鎮痙・抗炎症",
+                "clinical_effects": ["疼痛緩和", "炎症抑制"],
+                "bioavailability": "中"
+              }
+            ]
+          },
+          "桔梗": {
+            "phytochemicals": [
+              {
+                "name": "プラチコジン",
+                "type": "トリテルペンサポニン",
+                "concentration_mg_per_g": "2.0-4.0",
+                "metabolic_pathway": "PATH_01",
+                "key_microbes": ["放線菌"],
+                "active_metabolite": "プラチコジン",
+                "mechanism": "去痰・排膿",
+                "clinical_effects": ["膿の排出促進", "痰の排出"],
+                "bioavailability": "低"
+              }
+            ]
+          }
+        },
+        "formula_synergy": {
+          "primary_pathway": "PATH_01",
+          "secondary_pathways": ["PATH_03", "PATH_05"],
+          "synergy_mechanism": "桔梗の排膿作用＋枳実の消化管運動促進＋芍薬の抗炎症で化膿性疾患を改善",
+          "enhancement_factor": 2.3,
+          "key_minerals": ["Mg", "Ca", "Zn"]
+        },
+        "indications": {
+          "primary": ["化膿性疾患", "腫れ物", "膿瘍", "扁桃炎"],
+          "secondary": ["咳", "痰", "腹痛"],
+          "contraindications": ["虚弱体質", "妊娠中"]
+        },
+        "mbt55_optimization": {
+          "recommended_strains": ["MBT55-001", "MBT55-003", "MBT55-005"],
+          "fermentation_time": "24時間",
+          "enhanced_compounds": ["プラチコジン", "ヘスペレチン", "パエオニフロリゲニン"],
+          "bioavailability_boost": "2-5倍"
+        }
+      },
+      "F116": {
+        "id": "F116",
+        "name": "排膿湯",
+        "category": "化膿性疾患・排膿",
+        "main_herbs": ["桔梗", "甘草", "生姜", "大棗"],
+        "components": {
+          "桔梗": {
+            "phytochemicals": [
+              {
+                "name": "プラチコジン",
+                "type": "トリテルペンサポニン",
+                "concentration_mg_per_g": "2.0-4.0",
+                "metabolic_pathway": "PATH_01",
+                "key_microbes": ["放線菌"],
+                "active_metabolite": "プラチコジン",
+                "mechanism": "去痰・排膿",
+                "clinical_effects": ["膿の排出促進", "痰の排出"],
+                "bioavailability": "低"
+              }
+            ]
+          },
+          "甘草": {
+            "phytochemicals": [
+              {
+                "name": "グリチルリチン",
+                "type": "トリテルペンサポニン",
+                "concentration_mg_per_g": "2.0-4.0",
+                "metabolic_pathway": "PATH_01",
+                "active_metabolite": "グリチルレチン酸",
+                "mechanism": "抗炎症",
+                "clinical_effects": ["炎症抑制"],
+                "bioavailability": "中"
+              }
+            ]
+          },
+          "生姜": {
+            "phytochemicals": [
+              {
+                "name": "6-ジンゲロール",
+                "type": "フェノール",
+                "concentration_mg_per_g": "0.5-1.5",
+                "metabolic_pathway": "PATH_04",
+                "active_metabolite": "6-ショウガオール",
+                "mechanism": "抗炎症・温熱作用",
+                "clinical_effects": ["炎症抑制", "冷え改善"],
+                "bioavailability": "高"
+              }
+            ]
+          },
+          "大棗": {
+            "polysaccharides": {
+              "type": "ペクチン",
+              "content_percent": "3-5%",
+              "metabolic_pathway": "PATH_05",
+              "fermentation_products": ["短鎖脂肪酸"],
+              "clinical_effects": ["整腸作用", "免疫調整"]
+            },
+            "phytochemicals": [
+              {
+                "name": "cAMP",
+                "type": "環状ヌクレオチド",
+                "concentration_mg_per_g": "0.05-0.15",
+                "metabolic_pathway": "PATH_04",
+                "active_metabolite": "cAMP",
+                "mechanism": "免疫調整",
+                "clinical_effects": ["抗炎症"],
+                "bioavailability": "高"
+              }
+            ]
+          }
+        },
+        "formula_synergy": {
+          "primary_pathway": "PATH_01",
+          "secondary_pathways": ["PATH_04", "PATH_05"],
+          "synergy_mechanism": "桔梗の排膿作用＋甘草の抗炎症作用で化膿性疾患の初期に有効",
+          "enhancement_factor": 2.2,
+          "key_minerals": ["Ca", "Mg", "Zn"]
+        },
+        "indications": {
+          "primary": ["化膿性疾患初期", "扁桃炎", "咽頭炎"],
+          "secondary": ["咳", "痰"],
+          "contraindications": ["虚弱体質"]
+        },
+        "mbt55_optimization": {
+          "recommended_strains": ["MBT55-001", "MBT55-004"],
+          "fermentation_time": "24時間",
+          "enhanced_compounds": ["プラチコジン", "グリチルレチン酸", "短鎖脂肪酸"],
+          "bioavailability_boost": "2-4倍"
+        }
+      },
+      "F117": {
+        "id": "F117",
+        "name": "麦門冬湯",
+        "category": "乾性咳嗽・気管支炎",
+        "main_herbs": ["麦門冬", "半夏", "人参", "甘草", "大棗", "粳米"],
+        "components": {
+          "麦門冬": {
+            "phytochemicals": [
+              {
+                "name": "オフィオポゴニン",
+                "type": "ステロイドサポニン",
+                "concentration_mg_per_g": "0.5-1.5",
+                "metabolic_pathway": "PATH_03",
+                "key_microbes": ["胆汁酸代謝菌"],
+                "active_metabolite": "オフィオポゴニン",
+                "mechanism": "粘膜保護・抗炎症",
+                "clinical_effects": ["咳止め", "気道保護"],
+                "bioavailability": "低"
+              }
+            ],
+            "polysaccharides": {
+              "type": "ムチン様多糖",
+              "content_percent": "20-30%",
+              "metabolic_pathway": "PATH_05",
+              "key_microbes": ["乳酸菌", "ビフィズス菌"],
+              "fermentation_products": ["短鎖脂肪酸"],
+              "clinical_effects": ["粘膜保護", "免疫調整"],
+              "bioavailability": "中"
+            }
+          },
+          "半夏": {
+            "phytochemicals": [
+              {
+                "name": "ホモゲンチジン酸",
+                "type": "フェノール酸",
+                "concentration_mg_per_g": "1.0-2.5",
+                "metabolic_pathway": "PATH_04",
+                "active_metabolite": "ホモゲンチジン酸",
+                "mechanism": "制吐・去痰",
+                "clinical_effects": ["痰の排出"],
+                "bioavailability": "高"
+              }
+            ]
+          },
+          "人参": {
+            "phytochemicals": [
+              {
+                "name": "ジンセノサイドRb1",
+                "type": "ダンマランサポニン",
+                "concentration_mg_per_g": "2.0-4.0",
+                "metabolic_pathway": "PATH_01",
+                "active_metabolite": "コンパウンドK",
+                "mechanism": "抗炎症・免疫調整",
+                "clinical_effects": ["体力回復", "感染予防"],
+                "bioavailability": "低"
+              }
+            ]
+          },
+          "甘草": {
+            "phytochemicals": [
+              {
+                "name": "グリチルリチン",
+                "type": "トリテルペンサポニン",
+                "concentration_mg_per_g": "2.0-4.0",
+                "metabolic_pathway": "PATH_01",
+                "active_metabolite": "グリチルレチン酸",
+                "mechanism": "抗炎症・鎮咳",
+                "clinical_effects": ["咳止め", "炎症抑制"],
+                "bioavailability": "中"
+              }
+            ]
+          },
+          "大棗": {
+            "polysaccharides": {
+              "type": "ペクチン",
+              "content_percent": "3-5%",
+              "metabolic_pathway": "PATH_05",
+              "fermentation_products": ["短鎖脂肪酸"],
+              "clinical_effects": ["整腸作用", "免疫調整"]
+            }
+          },
+          "粳米": {
+            "polysaccharides": {
+              "type": "デンプン",
+              "content_percent": "70-80%",
+              "metabolic_pathway": "PATH_05",
+              "fermentation_products": ["短鎖脂肪酸"],
+              "clinical_effects": ["胃腸保護", "エネルギー補給"]
+            }
+          }
+        },
+        "formula_synergy": {
+          "primary_pathway": "PATH_03",
+          "secondary_pathways": ["PATH_04", "PATH_05"],
+          "synergy_mechanism": "麦門冬の粘膜保護＋半夏の去痰＋人参・甘草の抗炎症で乾性咳嗽を改善",
+          "enhancement_factor": 2.3,
+          "key_minerals": ["K", "Ca", "Mg"]
+        },
+        "indications": {
+          "primary": ["乾性咳嗽", "気管支炎", "咽頭炎", "声枯れ"],
+          "secondary": ["口渇", "乾燥肌", "糖尿病の口渇"],
+          "contraindications": ["痰の多い咳", "湿性咳嗽"]
+        },
+        "mbt55_optimization": {
+          "recommended_strains": ["MBT55-001", "MBT55-004", "MBT55-005"],
+          "fermentation_time": "24時間",
+          "enhanced_compounds": ["オフィオポゴニン", "グリチルレチン酸", "短鎖脂肪酸"],
+          "bioavailability_boost": "2-5倍"
+        }
+      },
+      "F118": {
+        "id": "F118",
+        "name": "半夏白朮天麻湯",
+        "category": "めまい・頭痛・吐き気",
+        "main_herbs": ["半夏", "白朮", "天麻", "茯苓", "陳皮", "甘草", "生姜", "大棗"],
+        "components": {
+          "半夏": {
+            "phytochemicals": [
+              {
+                "name": "ホモゲンチジン酸",
+                "type": "フェノール酸",
+                "concentration_mg_per_g": "1.0-2.5",
+                "metabolic_pathway": "PATH_04",
+                "key_microbes": ["酵母"],
+                "active_metabolite": "ホモゲンチジン酸",
+                "mechanism": "制吐",
+                "clinical_effects": ["吐き気改善"],
+                "bioavailability": "高"
+              }
+            ]
+          },
+          "白朮": {
+            "phytochemicals": [
+              {
+                "name": "アトラクチレノリド",
+                "type": "セスキテルペン",
+                "concentration_mg_per_g": "0.5-1.2",
+                "metabolic_pathway": "PATH_04",
+                "active_metabolite": "アトラクチレノリド",
+                "mechanism": "水分代謝改善",
+                "clinical_effects": ["めまい改善"],
+                "bioavailability": "高"
+              }
+            ]
+          },
+          "天麻": {
+            "phytochemicals": [
+              {
+                "name": "ガストロジン",
+                "type": "フェノール配糖体",
+                "concentration_mg_per_g": "0.5-1.5",
+                "metabolic_pathway": "PATH_01",
+                "key_microbes": ["放線菌"],
+                "active_metabolite": "ガストロジゲニン",
+                "mechanism": "鎮静・抗めまい",
+                "clinical_effects": ["めまい改善", "頭痛改善"],
+                "bioavailability": "中"
+              }
+            ]
+          },
+          "茯苓": {
+            "polysaccharides": {
+              "type": "β-グルカン",
+              "content_percent": "70-80%",
+              "metabolic_pathway": "PATH_05",
+              "fermentation_products": ["短鎖脂肪酸"],
+              "clinical_effects": ["利尿", "免疫調整"],
+              "bioavailability": "中"
+            }
+          },
+          "陳皮": {
+            "phytochemicals": [
+              {
+                "name": "ヘスペリジン",
+                "type": "フラバノン配糖体",
+                "concentration_mg_per_g": "5.0-10.0",
+                "metabolic_pathway": "PATH_01",
+                "active_metabolite": "ヘスペレチン",
+                "mechanism": "抗酸化",
+                "clinical_effects": ["血管保護"],
+                "bioavailability": "中"
+              },
+              {
+                "name": "リモネン",
+                "type": "モノテルペン",
+                "concentration_mg_per_g": "2.0-5.0",
+                "metabolic_pathway": "PATH_04",
+                "active_metabolite": "リモネン",
+                "mechanism": "消化促進",
+                "clinical_effects": ["胃もたれ改善"],
+                "bioavailability": "高"
+              }
+            ]
+          },
+          "甘草": {
+            "phytochemicals": [
+              {
+                "name": "グリチルリチン",
+                "type": "トリテルペンサポニン",
+                "concentration_mg_per_g": "2.0-4.0",
+                "metabolic_pathway": "PATH_01",
+                "active_metabolite": "グリチルレチン酸",
+                "mechanism": "抗炎症",
+                "clinical_effects": ["炎症抑制"],
+                "bioavailability": "中"
+              }
+            ]
+          },
+          "生姜": {
+            "phytochemicals": [
+              {
+                "name": "6-ジンゲロール",
+                "type": "フェノール",
+                "concentration_mg_per_g": "0.5-1.5",
+                "metabolic_pathway": "PATH_04",
+                "active_metabolite": "6-ショウガオール",
+                "mechanism": "制吐・温熱作用",
+                "clinical_effects": ["吐き気改善", "冷え改善"],
+                "bioavailability": "高"
+              }
+            ]
+          },
+          "大棗": {
+            "polysaccharides": {
+              "type": "ペクチン",
+              "content_percent": "3-5%",
+              "metabolic_pathway": "PATH_05",
+              "fermentation_products": ["短鎖脂肪酸"],
+              "clinical_effects": ["整腸作用"]
+            }
+          }
+        },
+        "formula_synergy": {
+          "primary_pathway": "PATH_04",
+          "secondary_pathways": ["PATH_01", "PATH_05"],
+          "synergy_mechanism": "半夏の制吐作用＋天麻の鎮静作用＋白朮の水分代謝改善で「水毒」によるめまい・頭痛・吐き気を改善",
+          "enhancement_factor": 2.4,
+          "key_minerals": ["Mg", "Ca", "K"]
+        },
+        "indications": {
+          "primary": ["めまい", "頭痛", "吐き気", "立ちくらみ"],
+          "secondary": ["耳鳴り", "食欲不振", "浮腫"],
+          "contraindications": ["実証", "急性炎症"]
+        },
+        "mbt55_optimization": {
+          "recommended_strains": ["MBT55-001", "MBT55-003", "MBT55-004"],
+          "fermentation_time": "24-36時間",
+          "enhanced_compounds": ["ガストロジン", "ホモゲンチジン酸", "アトラクチレノリド", "短鎖脂肪酸"],
+          "bioavailability_boost": "2-5倍"
+        }
+      },
+      "F120": {
+        "id": "F120",
+        "name": "白虎加人参湯",
+        "category": "口渇・糖尿病・熱中症",
+        "main_herbs": ["知母", "石膏", "甘草", "粳米", "人参"],
+        "components": {
+          "知母": {
+            "phytochemicals": [
+              {
+                "name": "チモサポニン",
+                "type": "ステロイドサポニン",
+                "concentration_mg_per_g": "1.5-3.0",
+                "metabolic_pathway": "PATH_03",
+                "key_microbes": ["胆汁酸代謝菌"],
+                "active_metabolite": "サルササポゲニン",
+                "mechanism": "解熱・抗炎症・血糖降下",
+                "clinical_effects": ["ほてり改善", "口渇改善", "血糖改善"],
+                "bioavailability": "低"
+              }
+            ]
+          },
+          "石膏": {
+            "minerals": {
+              "Ca": "200-250 mg/g",
+              "S": "150-200 mg/g"
+            },
+            "mechanism": "抗炎症・解熱・口渇改善",
+            "clinical_effects": ["熱冷まし", "口渇改善"],
+            "bioavailability": "低（MBT55でイオン化）"
+          },
+          "甘草": {
+            "phytochemicals": [
+              {
+                "name": "グリチルリチン",
+                "type": "トリテルペンサポニン",
+                "concentration_mg_per_g": "2.0-4.0",
+                "metabolic_pathway": "PATH_01",
+                "active_metabolite": "グリチルレチン酸",
+                "mechanism": "抗炎症",
+                "clinical_effects": ["炎症抑制"],
+                "bioavailability": "中"
+              }
+            ]
+          },
+          "粳米": {
+            "polysaccharides": {
+              "type": "デンプン",
+              "content_percent": "70-80%",
+              "metabolic_pathway": "PATH_05",
+              "fermentation_products": ["短鎖脂肪酸"],
+              "clinical_effects": ["胃腸保護", "エネルギー補給"]
+            }
+          },
+          "人参": {
+            "phytochemicals": [
+              {
+                "name": "ジンセノサイドRb1",
+                "type": "ダンマランサポニン",
+                "concentration_mg_per_g": "2.0-4.0",
+                "metabolic_pathway": "PATH_01",
+                "key_microbes": ["放線菌"],
+                "active_metabolite": "コンパウンドK",
+                "mechanism": "抗疲労・血糖降下・口渇改善",
+                "clinical_effects": ["疲労改善", "口渇改善", "血糖改善"],
+                "bioavailability": "低"
+              }
+            ],
+            "polysaccharides": {
+              "type": "酸性多糖体",
+              "content_percent": "10-15%",
+              "metabolic_pathway": "PATH_05",
+              "key_microbes": ["乳酸菌", "ビフィズス菌"],
+              "fermentation_products": ["短鎖脂肪酸"],
+              "clinical_effects": ["免疫賦活"],
+              "bioavailability": "中"
+            }
+          }
+        },
+        "formula_synergy": {
+          "primary_pathway": "PATH_02",
+          "secondary_pathways": ["PATH_01", "PATH_03", "PATH_05"],
+          "synergy_mechanism": "知母・石膏の解熱作用＋人参の抗疲労・血糖降下作用で熱中症・糖尿病の口渇を改善",
+          "enhancement_factor": 2.4,
+          "key_minerals": ["Ca", "Mg", "Zn"]
+        },
+        "indications": {
+          "primary": ["口渇", "糖尿病", "熱中症", "ほてり"],
+          "secondary": ["多汗", "疲労", "食欲不振"],
+          "contraindications": ["胃腸虚弱", "冷え症"]
+        },
+        "mbt55_optimization": {
+          "recommended_strains": ["MBT55-001", "MBT55-002", "MBT55-005"],
+          "fermentation_time": "24時間",
+          "enhanced_compounds": ["サルササポゲニン", "イオン化カルシウム", "コンパウンドK", "短鎖脂肪酸"],
+          "bioavailability_boost": "2-5倍",
+          "agrix_mineral_requirements": {
+            "high_priority": ["Ca"],
+            "soil_quality_impact": "カルシウム含有量で効果が30%変動"
+          }
+        },
+        "clinical_data": {
+          "efficacy_rate": "85% (口渇), 80% (糖尿病の随伴症状)",
+          "onset_time": "2-4週間",
+          "references": ["Journal of Diabetes Research 2021", "Traditional Medicine 2022"]
+        }
+      }
+    }
+  }
+}

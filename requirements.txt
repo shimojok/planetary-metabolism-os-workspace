@@ -1,0 +1,12 @@
+openai
+langchain
+langchain-openai
+langgraph
+chromadb
+networkx
+python-dotenv
+neo4j
+tiktoken
+pypdf
+markdown
+pathlib

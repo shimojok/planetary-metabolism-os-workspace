@@ -1,0 +1,126 @@
+## 2. 【未提示分】`/docs/agriware-spec.md` (Physical Layer)
+
+物理実装（MBT55）を定義します。
+
+Markdown
+
+```
+# AgriWare™: Metabolic Control Specification
+
+AgriWare is the edge-computing layer bridge between biological metabolism (MBT55) and digital governance.
+
+### 1. Metabolic Compression (180x)
+Using the MBT55 consortium, we accelerate the humification cycle:
+- Input: Organic Waste (Nitrogen-rich)
+- Process: High-temp ($60-75°C$) thermophilic aerobic fermentation.
+- Result: High-grade humus in 24 hours.
+
+### 2. Edge-IoT Data Points
+Every AgriWare unit streams the following telemetries to AQLA OS:
+- `temp_core`: Fermentation core temperature.
+- `gas_co2_sequestration`: Calculated CO2 equivalent fixed.
+- `microbial_activity_index`: Real-time enzymatic activity estimation.
+
+### 3. SafetyChain Integration
+Each batch receives a "Metabolic Birth Certificate" (Unique Hash), ensuring the provenance of the soil amendment produced.
+```
+
+
+以下の内容を、それぞれのファイルに反映させてください。
+
+#### **A. `docs/agriware-spec.md`**
+
+Markdown
+
+```
+# AgriWare™: Physical Layer Specification
+AgriWare is the edge-computing interface for MBT55 reactors.
+
+- **Objective:** 180x speed humification (24h cycle).
+- **Sensors:** Real-time monitoring of microbial heat ($60-75°C$) and gas emissions.
+- **Data Integration:** Feeds raw metabolic data into the AQLA Intelligence layer.
+```
+
+前者の詳細な内容ではなく、後者の内容に置き換えるのですか？
+意味が分かりません。
+
+---
+
+大変失礼いたしました。私の説明が前後し、下條様を混乱させてしまいました。
+
+結論から申し上げますと、**「前者の詳細な内容」を採用すべきです。** 後から提示した短い内容は、要約しすぎており、AQLAの技術的優位性が十分に伝わりません。
+
+混乱の正体は、私が「5つのファイルを一気に追加すること」を優先して、各ファイルの中身を簡略化して提示してしまったことにあります。
+
+改めて、**「これが完成形」と言える、詳細で力強い原稿**を整理しました。以下の内容をそれぞれのファイルに作成（反映）してください。
+
+---
+
+### 1. `docs/agriware-spec.md`（詳細版を採用）
+
+※「180倍の速度」や「IoTデータ点」を具体的に記載した、説得力のある内容です。
+
+Markdown
+
+```
+# AgriWare™: Metabolic Control Specification
+
+AgriWare is the edge-computing layer bridge between biological metabolism (MBT55) and digital governance.
+
+### 1. Metabolic Compression (180x)
+Using the MBT55 consortium, we accelerate the humification cycle:
+- **Input:** Organic Waste (Nitrogen-rich)
+- **Process:** High-temp ($60-75°C$) thermophilic aerobic fermentation.
+- **Result:** High-grade humus in 24 hours (Compressed from the usual 180 days).
+
+### 2. Edge-IoT Data Points
+Every AgriWare unit streams the following telemetries to AQLA OS via MQTT/RestAPI:
+- `temp_core`: Fermentation core temperature (Critical for MBT55 optimization).
+- `gas_co2_sequestration`: Calculated CO2 equivalent fixed in the humus.
+- `microbial_activity_index`: Real-time enzymatic activity estimation based on heat-to-mass ratio.
+
+### 3. SafetyChain Integration
+Each batch receives a "Metabolic Birth Certificate" (Unique Hash), ensuring the provenance of the soil amendment produced and securing the trust of the Soil Equity Reserve (SER).
+```
+
+---
+
+### 2. `docs/aqla-intelligence.md`（詳細版）
+
+※AI、漢方、未病のつながりを明確にしました。
+
+Markdown
+
+```
+# AQLA Intelligence: The Brain Layer (MI)
+
+AQLA Intelligence transforms raw metabolic data into actionable insights for both the planet and human longevity.
+
+### 1. Causal AI & PMH Model
+Unlike generative AI, our **Causal AI** processes the Planetary-Metabolic-Human (PMH) function:
+$Y = f(S, M, C, T)$
+It identifies the specific microbial interventions needed to maximize carbon capture and nutrient density.
+
+### 2. Food Is Medicine (FIM) Logic
+- **Digital Twin:** Mapping soil-microbiome diversity to human clinical biomarkers.
+- **Metabolic Library:** A graph database of "Kanpo" pathways to treat "Mibyou" (pre-disease states).
+- **Goal:** Personalized nutrition based on real-time soil health data.
+```
+
+---
+
+### まとめ：やるべきこと
+
+先ほど提示した「5つの新ファイル作成」において、**中身はこの「詳細版」を使用してください。**
+
+|**作成するファイル名**|**使うべき原稿**|
+|---|---|
+|**`docs/agriware-spec.md`**|上記の **1.** (詳細版)|
+|**`docs/aqla-intelligence.md`**|上記の **2.** (詳細版)|
+|**`docs/aqla-metabolism-library.md`**|ひとつ前の回答で提示した「漢方・バイオマーカー」の原稿|
+|**`models/financial_model.py`**|以前提示した「Pythonの計算コード」|
+|**`architecture/cloud-mesh.md`**|以前提示した「Azure/Googleサービス連携図」|
+
+これで、下條様のこれまでの全成果が、矛盾なく、かつ最も強力な形でGitHub上に揃います。
+
+私の不手際で二度手間をおかけしてしまい申し訳ありません。この「詳細版」で進めていただけますでしょうか？完了のご連絡をお待ちしております。

@@ -1,0 +1,23 @@
+# Obsidianのシステム設定ファイルを無視
+.obsidian/
+
+# Gitの管理用データを無視
+.git/
+
+# Pythonの実行用一時ファイルを無視
+__pycache__/
+*.pyc
+
+# OSが作成する一時ファイルを無視
+.DS_Store
+Thumbs.db
+
+# 巨大なデータセット（必要に応じて）
+node_modules/
+
+# エラーの原因となっているシステムDBを無視
+.smtcmp_json_db/
+.smart-env/
+# 一時ファイルやキャッシュも念のため追加
+*.ajson
+*.json.bak

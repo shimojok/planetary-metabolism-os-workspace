@@ -1,0 +1,110 @@
+{
+  "summary": {
+    "title": "Planetary Metabolic OS - Gates Proposal Summary",
+    "date": "2026-03-20",
+    "core_notes_analyzed": 500
+  },
+  "impact": {
+    "annual_ghg_reduction_mt": 2900.0,
+    "percent_global_emissions": 5.800000000000001,
+    "cars_equivalent": 630434782.6086957,
+    "trees_equivalent": 131818181818.18182,
+    "cost_savings_billion_usd": 75.0,
+    "people_fed_millions": 375.0,
+    "confidence": 1.0,
+    "core_notes_analyzed": 500,
+    "folder_distribution": {
+      "BioNexus_vault": 3,
+      "04_AGRIX": 182,
+      "03_MBT55": 138,
+      "07_HealthBook": 61,
+      "10_MBT_Probiotics": 5,
+      "05_AgriWare": 33,
+      "01_Planetary_Problems": 14,
+      "06_PBPE": 21,
+      "08_MBT_KampoLibrary": 11,
+      "11_AI Development": 21,
+      "00_inbox": 9,
+      "22_Claude": 1,
+      "02_Biological_Systems": 1
+    }
+  },
+  "microsoft_synergy": {
+    "azure_credits_potential": "$500M-1B/year",
+    "esg_impact": "Top 1% of all Microsoft partners",
+    "patent_portfolio": "20+ pending applications",
+    "acquisition_roi": "300% over 5 years",
+    "folder_analysis": {
+      "BioNexus_vault": {
+        "count": 3,
+        "importance": 0.5,
+        "score": 1.5
+      },
+      "04_AGRIX": {
+        "count": 182,
+        "importance": 1.0,
+        "score": 182.0
+      },
+      "03_MBT55": {
+        "count": 138,
+        "importance": 1.0,
+        "score": 138.0
+      },
+      "07_HealthBook": {
+        "count": 61,
+        "importance": 0.9,
+        "score": 54.9
+      },
+      "10_MBT_Probiotics": {
+        "count": 5,
+        "importance": 0.5,
+        "score": 2.5
+      },
+      "05_AgriWare": {
+        "count": 33,
+        "importance": 0.7,
+        "score": 23.099999999999998
+      },
+      "01_Planetary_Problems": {
+        "count": 14,
+        "importance": 0.5,
+        "score": 7.0
+      },
+      "06_PBPE": {
+        "count": 21,
+        "importance": 0.8,
+        "score": 16.8
+      },
+      "08_MBT_KampoLibrary": {
+        "count": 11,
+        "importance": 0.5,
+        "score": 5.5
+      },
+      "11_AI Development": {
+        "count": 21,
+        "importance": 0.5,
+        "score": 10.5
+      },
+      "00_inbox": {
+        "count": 9,
+        "importance": 0.5,
+        "score": 4.5
+      },
+      "22_Claude": {
+        "count": 1,
+        "importance": 0.5,
+        "score": 0.5
+      },
+      "02_Biological_Systems": {
+        "count": 1,
+        "importance": 0.5,
+        "score": 0.5
+      }
+    }
+  },
+  "next_steps": [
+    "Technical due diligence (2 weeks)",
+    "Pilot deployment (3 months)",
+    "Global scaling (12 months)"
+  ]
+}

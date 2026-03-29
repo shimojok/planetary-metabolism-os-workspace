@@ -1,0 +1,1 @@
+![[Simulated System Dynamics.jpg]]

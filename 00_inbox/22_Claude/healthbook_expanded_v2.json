@@ -1,0 +1,5414 @@
+{
+  "version": "2.0",
+  "data_source": "30万人実証データ（浜田式） + 下條式ファイトケミカル分類",
+  "total_diseases": 93,
+  "total_phytochemicals": 12,
+  "questionnaire_items": 10,
+  "diseases": {
+    "アトピー性皮膚炎": {
+      "disease": "アトピー性皮膚炎",
+      "risk_factors": {
+        "欠食型（朝食抜き）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "偏食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "脂肪": {
+          "weight": 0.7,
+          "category": null
+        },
+        "甘物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "空腹時の清涼飲料水": {
+          "weight": 0.7,
+          "category": null
+        },
+        "魚介類食べない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "青魚を食べない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "乳製品多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "卵を毎日2個以上食べる": {
+          "weight": 0.7,
+          "category": null
+        },
+        "加工食品やインスタント食品をよく食べる": {
+          "weight": 0.7,
+          "category": null
+        },
+        "間食多い": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 12,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "アレルギー性鼻炎・花粉症": {
+      "disease": "アレルギー性鼻炎・花粉症",
+      "risk_factors": {
+        "欠食型（朝食抜き）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "偏食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "刺激物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "脂肪": {
+          "weight": 0.7,
+          "category": null
+        },
+        "魚介類食べない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "青魚を食べない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "乳製品多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "卵を毎日2個以上食べる": {
+          "weight": 0.7,
+          "category": null
+        },
+        "加工食品やインスタント食品をよく食べる": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 10,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "急性胃炎": {
+      "disease": "急性胃炎",
+      "risk_factors": {
+        "不規則型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "夜食方(寝る前の食事）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "早食い型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "暴飲・暴食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒時少食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "塩分": {
+          "weight": 0.7,
+          "category": null
+        },
+        "刺激物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒(10年以上の大酒）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "熱物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "カフェイン": {
+          "weight": 0.7,
+          "category": null
+        },
+        "空腹時の清涼飲料水": {
+          "weight": 0.7,
+          "category": null
+        },
+        "肉多い": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 12,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "胃・十二指腸潰瘍": {
+      "disease": "胃・十二指腸潰瘍",
+      "risk_factors": {
+        "不規則型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "欠食型（朝食抜き）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "夜食方(寝る前の食事）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "暴飲・暴食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒時少食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "塩分": {
+          "weight": 0.7,
+          "category": null
+        },
+        "刺激物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒(10年以上の大酒）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "熱物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "空腹時の清涼飲料水": {
+          "weight": 0.7,
+          "category": null
+        },
+        "肉多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "洋食好み": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 13,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "一過性脳虚血発作": {
+      "disease": "一過性脳虚血発作",
+      "risk_factors": {
+        "不規則型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "欠食型（朝食抜き）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "夜食方(寝る前の食事）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "早食い型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "暴飲・暴食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "外食多い型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "塩分": {
+          "weight": 0.7,
+          "category": null
+        },
+        "脂肪": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒(10年以上の大酒）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "肉多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "青魚を食べない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "洋食好み": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "乳製品多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "卵を毎日2個以上食べる": {
+          "weight": 0.7,
+          "category": null
+        },
+        "水分摂取少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "間食多い": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 17,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "咽頭炎": {
+      "disease": "咽頭炎",
+      "risk_factors": {
+        "不規則型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "暴飲・暴食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒時少食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒(10年以上の大酒）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "果物少ない": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 7,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "円形性脱毛症": {
+      "disease": "円形性脱毛症",
+      "risk_factors": {
+        "偏食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "暴飲・暴食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒時少食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒(10年以上の大酒）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "果物少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "大豆製品(植物性たんぱく質)少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "加工食品やインスタント食品をよく食べる": {
+          "weight": 0.7,
+          "category": null
+        },
+        "間食多い": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 10,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "角膜炎": {
+      "disease": "角膜炎",
+      "risk_factors": {
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "果物少ない": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 2,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "風邪症候群": {
+      "disease": "風邪症候群",
+      "risk_factors": {
+        "不規則型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "欠食型（朝食抜き）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "偏食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "肉食べない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "魚介類食べない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "果物少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "大豆製品(植物性たんぱく質)少ない": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 8,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "過敏性腸症候群": {
+      "disease": "過敏性腸症候群",
+      "risk_factors": {
+        "塩分": {
+          "weight": 0.7,
+          "category": null
+        },
+        "肉多い": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 2,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "肝炎": {
+      "disease": "肝炎",
+      "risk_factors": {
+        "飲酒時少食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "脂肪": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒(10年以上の大酒）": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 4,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "肝硬変": {
+      "disease": "肝硬変",
+      "risk_factors": {
+        "不規則型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒時少食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "脂肪": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒(10年以上の大酒）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "魚介類食べない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "果物少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "海草少ない": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 9,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "眼精疲労": {
+      "disease": "眼精疲労",
+      "risk_factors": {
+        "不規則型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "欠食型（朝食抜き）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "偏食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒時少食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒(10年以上の大酒）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "果物少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "間食多い": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 8,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "乾癬": {
+      "disease": "乾癬",
+      "risk_factors": {
+        "青魚を食べない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "果物少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "海草少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "大豆製品(植物性たんぱく質)少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "加工食品やインスタント食品をよく食べる": {
+          "weight": 0.7,
+          "category": null
+        },
+        "間食多い": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 7,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "気管支炎": {
+      "disease": "気管支炎",
+      "risk_factors": {
+        "欠食型（朝食抜き）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "偏食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "果物少ない": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 4,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "気管支拡張症": {
+      "disease": "気管支拡張症",
+      "risk_factors": {
+        "欠食型（朝食抜き）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "偏食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "果物少ない": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 4,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "気管支喘息": {
+      "disease": "気管支喘息",
+      "risk_factors": {
+        "不規則型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "偏食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "刺激物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "青魚を食べない": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 4,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "狭心症": {
+      "disease": "狭心症",
+      "risk_factors": {
+        "不規則型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "欠食型（朝食抜き）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "夜食方(寝る前の食事）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "早食い型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "暴飲・暴食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "外食多い型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "塩分": {
+          "weight": 0.7,
+          "category": null
+        },
+        "脂肪": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒(10年以上の大酒）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "甘物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "カフェイン": {
+          "weight": 0.7,
+          "category": null
+        },
+        "空腹時の清涼飲料水": {
+          "weight": 0.7,
+          "category": null
+        },
+        "肉多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "魚介類食べない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "青魚を食べない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "洋食好み": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "乳製品多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "卵を毎日2個以上食べる": {
+          "weight": 0.7,
+          "category": null
+        },
+        "果物少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "海草少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "大豆製品(植物性たんぱく質)少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "加工食品やインスタント食品をよく食べる": {
+          "weight": 0.7,
+          "category": null
+        },
+        "水分摂取少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "間食多い": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 26,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "くも膜下出血": {
+      "disease": "くも膜下出血",
+      "risk_factors": {
+        "不規則型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "夜食方(寝る前の食事）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "塩分": {
+          "weight": 0.7,
+          "category": null
+        },
+        "刺激物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒(10年以上の大酒）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "肉食べない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "魚介類食べない": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 7,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "月経困難症": {
+      "disease": "月経困難症",
+      "risk_factors": {
+        "欠食型（朝食抜き）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "偏食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "肉食べない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "魚介類食べない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "大豆製品(植物性たんぱく質)少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "加工食品やインスタント食品をよく食べる": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 6,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "結膜炎": {
+      "disease": "結膜炎",
+      "risk_factors": {
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "果物少ない": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 2,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "下痢": {
+      "disease": "下痢",
+      "risk_factors": {
+        "夜食方(寝る前の食事）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "早食い型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "暴飲・暴食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "刺激物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "空腹時の清涼飲料水": {
+          "weight": 0.7,
+          "category": null
+        },
+        "乳製品多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "水分摂取多い": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 7,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "高血圧　　　　　　　　　　　　　　レ": {
+      "disease": "高血圧　　　　　　　　　　　　　　レ",
+      "risk_factors": {
+        "不規則型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "欠食型（朝食抜き）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "夜食方(寝る前の食事）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "早食い型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "暴飲・暴食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "塩分": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "果物少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "海草少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "間食多い": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 11,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "高脂血症　　　　　　　　　　　　レ": {
+      "disease": "高脂血症　　　　　　　　　　　　レ",
+      "risk_factors": {
+        "不規則型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "欠食型（朝食抜き）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "夜食方(寝る前の食事）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "早食い型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "暴飲・暴食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "外食多い型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "脂肪": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒(10年以上の大酒）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "甘物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "空腹時の清涼飲料水": {
+          "weight": 0.7,
+          "category": null
+        },
+        "肉多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "青魚を食べない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "洋食好み": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "乳製品多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "卵を毎日2個以上食べる": {
+          "weight": 0.7,
+          "category": null
+        },
+        "海草少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "大豆製品(植物性たんぱく質)少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "加工食品やインスタント食品をよく食べる": {
+          "weight": 0.7,
+          "category": null
+        },
+        "間食多い": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 21,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "甲状腺機能亢進症": {
+      "disease": "甲状腺機能亢進症",
+      "risk_factors": {
+        "刺激物": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 1,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "甲状腺機能低下症": {
+      "disease": "甲状腺機能低下症",
+      "risk_factors": {
+        "不規則型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "偏食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "肉食べない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "魚介類食べない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "大豆製品(植物性たんぱく質)少ない": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 5,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "口唇炎": {
+      "disease": "口唇炎",
+      "risk_factors": {
+        "不規則型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "欠食型（朝食抜き）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "偏食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "暴飲・暴食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "外食多い型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒時少食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "刺激物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒(10年以上の大酒）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "カフェイン": {
+          "weight": 0.7,
+          "category": null
+        },
+        "空腹時の清涼飲料水": {
+          "weight": 0.7,
+          "category": null
+        },
+        "果物少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "加工食品やインスタント食品をよく食べる": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 12,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "喉頭炎": {
+      "disease": "喉頭炎",
+      "risk_factors": {
+        "不規則型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒(10年以上の大酒）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "熱物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "果物少ない": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 4,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "口内炎": {
+      "disease": "口内炎",
+      "risk_factors": {
+        "不規則型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "欠食型（朝食抜き）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "偏食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "暴飲・暴食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "外食多い型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒時少食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "刺激物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒(10年以上の大酒）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "カフェイン": {
+          "weight": 0.7,
+          "category": null
+        },
+        "空腹時の清涼飲料水": {
+          "weight": 0.7,
+          "category": null
+        },
+        "果物少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "加工食品やインスタント食品をよく食べる": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 12,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "骨粗鬆症　　　　　　　　　　　　レ": {
+      "disease": "骨粗鬆症　　　　　　　　　　　　レ",
+      "risk_factors": {
+        "偏食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒時少食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "塩分": {
+          "weight": 0.7,
+          "category": null
+        },
+        "甘物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "カフェイン": {
+          "weight": 0.7,
+          "category": null
+        },
+        "空腹時の清涼飲料水": {
+          "weight": 0.7,
+          "category": null
+        },
+        "魚介類食べない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "乳製品少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "海草少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "小魚少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "大豆製品(植物性たんぱく質)少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "加工食品やインスタント食品をよく食べる": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 12,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "弛緩性便秘": {
+      "disease": "弛緩性便秘",
+      "risk_factors": {
+        "不規則型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "欠食型（朝食抜き）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "柔・軟食": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "果物少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "海草少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "大豆製品(植物性たんぱく質)少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "加工食品やインスタント食品をよく食べる": {
+          "weight": 0.7,
+          "category": null
+        },
+        "水分摂取少ない": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 9,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "子宮がん": {
+      "disease": "子宮がん",
+      "risk_factors": {
+        "不規則型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "欠食型（朝食抜き）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "偏食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "外食多い型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "洋食好み": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "果物少ない": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 7,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "歯周病・歯槽膿漏・歯肉炎": {
+      "disease": "歯周病・歯槽膿漏・歯肉炎",
+      "risk_factors": {
+        "早食い型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "肉食べない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "洋食好み": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "果物少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "海草少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "加工食品やインスタント食品をよく食べる": {
+          "weight": 0.7,
+          "category": null
+        },
+        "間食多い": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 8,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "脂肪肝": {
+      "disease": "脂肪肝",
+      "risk_factors": {
+        "不規則型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "欠食型（朝食抜き）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "夜食方(寝る前の食事）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "早食い型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "暴飲・暴食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "外食多い型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒時少食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "脂肪": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒(10年以上の大酒）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "甘物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "空腹時の清涼飲料水": {
+          "weight": 0.7,
+          "category": null
+        },
+        "肉多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "青魚を食べない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "洋食好み": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "乳製品多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "卵を毎日2個以上食べる": {
+          "weight": 0.7,
+          "category": null
+        },
+        "海草少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "加工食品やインスタント食品をよく食べる": {
+          "weight": 0.7,
+          "category": null
+        },
+        "間食多い": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 21,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "食道炎": {
+      "disease": "食道炎",
+      "risk_factors": {
+        "塩分": {
+          "weight": 0.7,
+          "category": null
+        },
+        "刺激物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒(10年以上の大酒）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "熱物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "カフェイン": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 5,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "食物アレルギー": {
+      "disease": "食物アレルギー",
+      "risk_factors": {
+        "脂肪": {
+          "weight": 0.7,
+          "category": null
+        },
+        "乳製品多い": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 2,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "脂漏性皮膚炎": {
+      "disease": "脂漏性皮膚炎",
+      "risk_factors": {
+        "暴飲・暴食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "刺激物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "脂肪": {
+          "weight": 0.7,
+          "category": null
+        },
+        "甘物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "肉多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "青魚を食べない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "洋食好み": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "乳製品多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "卵を毎日2個以上食べる": {
+          "weight": 0.7,
+          "category": null
+        },
+        "海草少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "加工食品やインスタント食品をよく食べる": {
+          "weight": 0.7,
+          "category": null
+        },
+        "間食多い": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 13,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "腎盂腎炎": {
+      "disease": "腎盂腎炎",
+      "risk_factors": {
+        "不規則型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "水分摂取少ない": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 2,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "腎炎": {
+      "disease": "腎炎",
+      "risk_factors": {
+        "不規則型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "塩分": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒(10年以上の大酒）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "果物少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "水分摂取少ない": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 6,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "心筋梗塞": {
+      "disease": "心筋梗塞",
+      "risk_factors": {
+        "不規則型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "欠食型（朝食抜き）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "夜食方(寝る前の食事）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "早食い型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "暴飲・暴食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "外食多い型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "塩分": {
+          "weight": 0.7,
+          "category": null
+        },
+        "脂肪": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒(10年以上の大酒）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "カフェイン": {
+          "weight": 0.7,
+          "category": null
+        },
+        "肉多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "魚介類食べない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "青魚を食べない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "洋食好み": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "乳製品多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "卵を毎日2個以上食べる": {
+          "weight": 0.7,
+          "category": null
+        },
+        "果物少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "海草少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "大豆製品(植物性たんぱく質)少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "加工食品やインスタント食品をよく食べる": {
+          "weight": 0.7,
+          "category": null
+        },
+        "水分摂取少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "間食多い": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 24,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "心不全": {
+      "disease": "心不全",
+      "risk_factors": {
+        "不規則型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "夜食方(寝る前の食事）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "早食い型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "暴飲・暴食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒時少食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "塩分": {
+          "weight": 0.7,
+          "category": null
+        },
+        "刺激物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "脂肪": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒(10年以上の大酒）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "カフェイン": {
+          "weight": 0.7,
+          "category": null
+        },
+        "肉多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "青魚を食べない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "洋食好み": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "乳製品多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "卵を毎日2個以上食べる": {
+          "weight": 0.7,
+          "category": null
+        },
+        "果物少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "海草少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "加工食品やインスタント食品をよく食べる": {
+          "weight": 0.7,
+          "category": null
+        },
+        "水分摂取多い": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 21,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "蕁麻疹": {
+      "disease": "蕁麻疹",
+      "risk_factors": {
+        "偏食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "脂肪": {
+          "weight": 0.7,
+          "category": null
+        },
+        "青魚を食べない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "卵を毎日2個以上食べる": {
+          "weight": 0.7,
+          "category": null
+        },
+        "果物少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "海草少ない": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 7,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "膵炎": {
+      "disease": "膵炎",
+      "risk_factors": {
+        "不規則型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "夜食方(寝る前の食事）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "暴飲・暴食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒時少食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "刺激物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "脂肪": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒(10年以上の大酒）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "空腹時の清涼飲料水": {
+          "weight": 0.7,
+          "category": null
+        },
+        "肉多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "洋食好み": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 10,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "生理不順": {
+      "disease": "生理不順",
+      "risk_factors": {
+        "欠食型（朝食抜き）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "偏食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "肉食べない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "魚介類食べない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "加工食品やインスタント食品をよく食べる": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 5,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "前立腺肥大症": {
+      "disease": "前立腺肥大症",
+      "risk_factors": {
+        "魚介類食べない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "果物少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "海草少ない": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 4,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "前立腺がん": {
+      "disease": "前立腺がん",
+      "risk_factors": {
+        "欠食型（朝食抜き）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "脂肪": {
+          "weight": 0.7,
+          "category": null
+        },
+        "肉多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "洋食好み": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "乳製品多い": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 6,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "帯状疱疹": {
+      "disease": "帯状疱疹",
+      "risk_factors": {
+        "不規則型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "肉食べない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "魚介類食べない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "加工食品やインスタント食品をよく食べる": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 4,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "胆石症": {
+      "disease": "胆石症",
+      "risk_factors": {
+        "不規則型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "欠食型（朝食抜き）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "夜食方(寝る前の食事）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "早食い型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "外食多い型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "脂肪": {
+          "weight": 0.7,
+          "category": null
+        },
+        "甘物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "カフェイン": {
+          "weight": 0.7,
+          "category": null
+        },
+        "空腹時の清涼飲料水": {
+          "weight": 0.7,
+          "category": null
+        },
+        "肉多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "果物少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "海草少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "間食多い": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 14,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "胆のう炎": {
+      "disease": "胆のう炎",
+      "risk_factors": {
+        "不規則型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "暴飲・暴食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "刺激物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒(10年以上の大酒）": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 4,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "痛風・高尿酸血症": {
+      "disease": "痛風・高尿酸血症",
+      "risk_factors": {
+        "不規則型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "欠食型（朝食抜き）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "夜食方(寝る前の食事）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "早食い型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "暴飲・暴食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "外食多い型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒時少食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒(10年以上の大酒）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "甘物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "空腹時の清涼飲料水": {
+          "weight": 0.7,
+          "category": null
+        },
+        "肉多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "洋食好み": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "果物少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "海草少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "間食多い": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 17,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "糖尿病": {
+      "disease": "糖尿病",
+      "risk_factors": {
+        "不規則型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "欠食型（朝食抜き）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "夜食方(寝る前の食事）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "暴飲・暴食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "外食多い型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "脂肪": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒(10年以上の大酒）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "甘物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "空腹時の清涼飲料水": {
+          "weight": 0.7,
+          "category": null
+        },
+        "洋食好み": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "乳製品多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "果物多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "間食多い": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 15,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "糖尿病性網膜症": {
+      "disease": "糖尿病性網膜症",
+      "risk_factors": {
+        "不規則型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "欠食型（朝食抜き）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "夜食方(寝る前の食事）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "早食い型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "暴飲・暴食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "外食多い型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "塩分": {
+          "weight": 0.7,
+          "category": null
+        },
+        "脂肪": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒(10年以上の大酒）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "甘物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "空腹時の清涼飲料水": {
+          "weight": 0.7,
+          "category": null
+        },
+        "洋食好み": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "乳製品多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "果物多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "間食多い": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 17,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "動脈硬化": {
+      "disease": "動脈硬化",
+      "risk_factors": {
+        "夜食方(寝る前の食事）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "早食い型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "暴飲・暴食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "外食多い型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "塩分": {
+          "weight": 0.7,
+          "category": null
+        },
+        "脂肪": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒(10年以上の大酒）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "肉多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "魚介類食べない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "青魚を食べない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "乳製品多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "卵を毎日2個以上食べる": {
+          "weight": 0.7,
+          "category": null
+        },
+        "果物少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "海草少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "間食多い": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 17,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "乳腺炎・乳腺症": {
+      "disease": "乳腺炎・乳腺症",
+      "risk_factors": {
+        "欠食型（朝食抜き）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "脂肪": {
+          "weight": 0.7,
+          "category": null
+        },
+        "カフェイン": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 4,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "尿道炎": {
+      "disease": "尿道炎",
+      "risk_factors": {
+        "欠食型（朝食抜き）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 2,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "尿路結石": {
+      "disease": "尿路結石",
+      "risk_factors": {
+        "偏食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒時少食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "塩分": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒(10年以上の大酒）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "甘物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "空腹時の清涼飲料水": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "乳製品少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "果物少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "海草少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "水分摂取少ない": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 12,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "ネフローゼ症候群": {
+      "disease": "ネフローゼ症候群",
+      "risk_factors": {
+        "塩分": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 1,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "脳梗塞": {
+      "disease": "脳梗塞",
+      "risk_factors": {
+        "夜食方(寝る前の食事）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "早食い型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "暴飲・暴食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "外食多い型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "塩分": {
+          "weight": 0.7,
+          "category": null
+        },
+        "脂肪": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒": {
+          "weight": 0.7,
+          "category": null
+        },
+        "甘物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "空腹時の清涼飲料水": {
+          "weight": 0.7,
+          "category": null
+        },
+        "肉多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "青魚を食べない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "洋食好み": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "乳製品多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "卵を毎日2個以上食べる": {
+          "weight": 0.7,
+          "category": null
+        },
+        "水分摂取少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "間食多い": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 17,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "脳出血": {
+      "disease": "脳出血",
+      "risk_factors": {
+        "偏食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒時少食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "塩分": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒(10年以上の大酒）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "肉食べない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "魚介類食べない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "果物少ない": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 8,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "脳腫瘍　　　　　　　　　　　　　×": {
+      "disease": "脳腫瘍　　　　　　　　　　　　　×",
+      "risk_factors": {
+        "水分摂取少ない": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 1,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "肺炎": {
+      "disease": "肺炎",
+      "risk_factors": {
+        "欠食型（朝食抜き）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 2,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "肺結核": {
+      "disease": "肺結核",
+      "risk_factors": {
+        "欠食型（朝食抜き）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 2,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "白内障": {
+      "disease": "白内障",
+      "risk_factors": {
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "果物少ない": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 2,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "皮膚掻痒症": {
+      "disease": "皮膚掻痒症",
+      "risk_factors": {
+        "肉食べない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "魚介類食べない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "乳製品少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "水分摂取少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "淡白な食事を好むようになった": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 5,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "貧血": {
+      "disease": "貧血",
+      "risk_factors": {
+        "不規則型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "欠食型（朝食抜き）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "偏食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "外食多い型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "肉食べない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "魚介類食べない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "小魚少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "大豆製品(植物性たんぱく質)少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "加工食品やインスタント食品をよく食べる": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 10,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "片頭痛　　　　　　　　　　　　　×": {
+      "disease": "片頭痛　　　　　　　　　　　　　×",
+      "risk_factors": {
+        "水分摂取少ない": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 1,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "便秘": {
+      "disease": "便秘",
+      "risk_factors": {
+        "欠食型（朝食抜き）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "柔・軟食": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "果物少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "海草少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "大豆製品(植物性たんぱく質)少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "加工食品やインスタント食品をよく食べる": {
+          "weight": 0.7,
+          "category": null
+        },
+        "水分摂取少ない": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 8,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "慢性胃炎": {
+      "disease": "慢性胃炎",
+      "risk_factors": {
+        "夜食方(寝る前の食事）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "早食い型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "暴飲・暴食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒時少食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "塩分": {
+          "weight": 0.7,
+          "category": null
+        },
+        "刺激物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒(10年以上の大酒）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "甘物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "熱物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "空腹時の清涼飲料水": {
+          "weight": 0.7,
+          "category": null
+        },
+        "肉多い": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 12,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "慢性腎炎": {
+      "disease": "慢性腎炎",
+      "risk_factors": {
+        "不規則型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "早食い型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "暴飲・暴食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "塩分": {
+          "weight": 0.7,
+          "category": null
+        },
+        "刺激物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒(10年以上の大酒）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "カフェイン": {
+          "weight": 0.7,
+          "category": null
+        },
+        "空腹時の清涼飲料水": {
+          "weight": 0.7,
+          "category": null
+        },
+        "果物少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "海草少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "水分摂取多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "水分摂取少ない": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 13,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "慢性膵炎": {
+      "disease": "慢性膵炎",
+      "risk_factors": {
+        "暴飲・暴食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒時少食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "刺激物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "脂肪": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒(10年以上の大酒）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "肉多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "洋食好み": {
+          "weight": 0.7,
+          "category": null
+        },
+        "乳製品多い": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 9,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "腰痛": {
+      "disease": "腰痛",
+      "risk_factors": {
+        "不規則型": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 1,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "良性腎硬化症": {
+      "disease": "良性腎硬化症",
+      "risk_factors": {
+        "不規則型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "外食多い型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "塩分": {
+          "weight": 0.7,
+          "category": null
+        },
+        "洋食好み": {
+          "weight": 0.7,
+          "category": null
+        },
+        "間食多い": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 5,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "老人性認知症": {
+      "disease": "老人性認知症",
+      "risk_factors": {
+        "肉多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "魚介類食べない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 3,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "腎結石": {
+      "disease": "腎結石",
+      "risk_factors": {
+        "夜食方(寝る前の食事）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "偏食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "水分摂取少ない": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 3,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "急性腸炎": {
+      "disease": "急性腸炎",
+      "risk_factors": {
+        "夜食方(寝る前の食事）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "塩分": {
+          "weight": 0.7,
+          "category": null
+        },
+        "肉多い": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 3,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "慢性腸炎": {
+      "disease": "慢性腸炎",
+      "risk_factors": {
+        "夜食方(寝る前の食事）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "塩分": {
+          "weight": 0.7,
+          "category": null
+        },
+        "肉多い": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 3,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "胃がん": {
+      "disease": "胃がん",
+      "risk_factors": {
+        "不規則型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "欠食型（朝食抜き）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "夜食方(寝る前の食事）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "早食い型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "暴飲・暴食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒時少食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "塩分": {
+          "weight": 0.7,
+          "category": null
+        },
+        "刺激物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒(10年以上の大酒）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "焦げ目(肉＆魚）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "熱物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "カフェイン": {
+          "weight": 0.7,
+          "category": null
+        },
+        "空腹時の清涼飲料水": {
+          "weight": 0.7,
+          "category": null
+        },
+        "肉多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "乳製品少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "果物少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "海草少ない": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 18,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "肺がん": {
+      "disease": "肺がん",
+      "risk_factors": {
+        "欠食型（朝食抜き）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "脂肪": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒(10年以上の大酒）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "肉多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 5,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "肝臓がん": {
+      "disease": "肝臓がん",
+      "risk_factors": {
+        "欠食型（朝食抜き）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒時少食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒(10年以上の大酒）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "肉多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "魚介類食べない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "果物少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "海草少ない": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 9,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "大腸がん": {
+      "disease": "大腸がん",
+      "risk_factors": {
+        "不規則型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "欠食型（朝食抜き）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "外食多い型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒時少食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "脂肪": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒(10年以上の大酒）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "肉多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "魚介類食べない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "洋食好み": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "乳製品多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "果物少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "海草少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "小魚少ない": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 15,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "膵臓がん": {
+      "disease": "膵臓がん",
+      "risk_factors": {
+        "欠食型（朝食抜き）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒時少食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "刺激物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "脂肪": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒(10年以上の大酒）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "カフェイン": {
+          "weight": 0.7,
+          "category": null
+        },
+        "肉多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "洋食好み": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 9,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "喉頭がん": {
+      "disease": "喉頭がん",
+      "risk_factors": {
+        "欠食型（朝食抜き）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "塩分": {
+          "weight": 0.7,
+          "category": null
+        },
+        "刺激物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒(10年以上の大酒）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "熱物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 6,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "咽頭がん": {
+      "disease": "咽頭がん",
+      "risk_factors": {
+        "欠食型（朝食抜き）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒(10年以上の大酒）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 3,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "膀胱がん": {
+      "disease": "膀胱がん",
+      "risk_factors": {
+        "欠食型（朝食抜き）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 2,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "乳がん": {
+      "disease": "乳がん",
+      "risk_factors": {
+        "不規則型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "欠食型（朝食抜き）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "外食多い型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "脂肪": {
+          "weight": 0.7,
+          "category": null
+        },
+        "甘物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "肉多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "洋食好み": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "乳製品多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "卵を毎日2個以上食べる": {
+          "weight": 0.7,
+          "category": null
+        },
+        "果物少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "海草少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "加工食品やインスタント食品をよく食べる": {
+          "weight": 0.7,
+          "category": null
+        },
+        "間食多い": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 14,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "肥満症": {
+      "disease": "肥満症",
+      "risk_factors": {
+        "不規則型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "欠食型（朝食抜き）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "夜食方(寝る前の食事）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "早食い型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "偏食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "暴飲・暴食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "外食多い型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "脂肪": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒(10年以上の大酒）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "甘物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "空腹時の清涼飲料水": {
+          "weight": 0.7,
+          "category": null
+        },
+        "肉多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "洋食好み": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "乳製品多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "海草少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "間食多い": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 18,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "糖尿病性神経症": {
+      "disease": "糖尿病性神経症",
+      "risk_factors": {
+        "不規則型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "欠食型（朝食抜き）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "夜食方(寝る前の食事）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "早食い型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "暴飲・暴食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "塩分": {
+          "weight": 0.7,
+          "category": null
+        },
+        "脂肪": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒(10年以上の大酒）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "甘物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "空腹時の清涼飲料水": {
+          "weight": 0.7,
+          "category": null
+        },
+        "肉多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "海草少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "間食多い": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 15,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "食道がん": {
+      "disease": "食道がん",
+      "risk_factors": {
+        "欠食型（朝食抜き）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "塩分": {
+          "weight": 0.7,
+          "category": null
+        },
+        "刺激物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒(10年以上の大酒）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "熱物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "カフェイン": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 7,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "大腸ポリープ": {
+      "disease": "大腸ポリープ",
+      "risk_factors": {
+        "脂肪": {
+          "weight": 0.7,
+          "category": null
+        },
+        "肉多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "洋食好み": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "乳製品多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "海草少ない": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 6,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "アルコール性肝障害": {
+      "disease": "アルコール性肝障害",
+      "risk_factors": {
+        "不規則型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒時少食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒(10年以上の大酒）": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 4,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "糖尿病性腎症": {
+      "disease": "糖尿病性腎症",
+      "risk_factors": {
+        "不規則型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "欠食型（朝食抜き）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "夜食方(寝る前の食事）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "早食い型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "暴飲・暴食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "外食多い型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "塩分": {
+          "weight": 0.7,
+          "category": null
+        },
+        "脂肪": {
+          "weight": 0.7,
+          "category": null
+        },
+        "飲酒(10年以上の大酒）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "甘物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "空腹時の清涼飲料水": {
+          "weight": 0.7,
+          "category": null
+        },
+        "洋食好み": {
+          "weight": 0.7,
+          "category": null
+        },
+        "野菜少ない": {
+          "weight": 0.7,
+          "category": null
+        },
+        "乳製品多い": {
+          "weight": 0.7,
+          "category": null
+        },
+        "間食多い": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 15,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "胃下垂": {
+      "disease": "胃下垂",
+      "risk_factors": {
+        "夜食方(寝る前の食事）": {
+          "weight": 0.7,
+          "category": null
+        },
+        "暴飲・暴食型": {
+          "weight": 0.7,
+          "category": null
+        },
+        "塩分": {
+          "weight": 0.7,
+          "category": null
+        },
+        "刺激物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "熱物": {
+          "weight": 0.7,
+          "category": null
+        },
+        "肉多い": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 6,
+      "data_source": "30万人実証データ（浜田式）"
+    },
+    "脳動脈硬化": {
+      "disease": "脳動脈硬化",
+      "risk_factors": {
+        "塩分": {
+          "weight": 0.7,
+          "category": null
+        },
+        "肉多い": {
+          "weight": 0.7,
+          "category": null
+        }
+      },
+      "factor_count": 2,
+      "data_source": "30万人実証データ（浜田式）"
+    }
+  },
+  "phytochemicals": {
+    "その他": {
+      "name": "その他",
+      "category": "イオウ化合物群　　　　　　　　　　　　　　　　　　　（にんにくやねぎなどの刺激のある香り成分の総称）",
+      "subcategory": null,
+      "source_foods": "",
+      "data_source": "下條式分類"
+    },
+    "植物系色素成分比較": {
+      "name": "植物系色素成分比較",
+      "category": "イオウ化合物群　　　　　　　　　　　　　　　　　　　（にんにくやねぎなどの刺激のある香り成分の総称）",
+      "subcategory": null,
+      "source_foods": "",
+      "data_source": "下條式分類"
+    },
+    "フラボノイド": {
+      "name": "フラボノイド",
+      "category": "イオウ化合物群　　　　　　　　　　　　　　　　　　　（にんにくやねぎなどの刺激のある香り成分の総称）",
+      "subcategory": null,
+      "source_foods": "",
+      "data_source": "下條式分類"
+    },
+    "植物系カロテノイド": {
+      "name": "植物系カロテノイド",
+      "category": "イオウ化合物群　　　　　　　　　　　　　　　　　　　（にんにくやねぎなどの刺激のある香り成分の総称）",
+      "subcategory": null,
+      "source_foods": "",
+      "data_source": "下條式分類"
+    }
+  },
+  "mini_questionnaire": {
+    "1": {
+      "question": "朝食を抜くことが多いですか？",
+      "related_factors": [
+        "欠食型（朝食抜き）",
+        "不規則型"
+      ],
+      "category": "食習慣"
+    },
+    "2": {
+      "question": "色の濃い野菜（緑黄色野菜）が嫌いですか？",
+      "related_factors": [
+        "野菜少ない",
+        "偏食型"
+      ],
+      "category": "食習慣"
+    },
+    "3": {
+      "question": "塩分の多い食事を好みますか？",
+      "related_factors": [
+        "塩分"
+      ],
+      "category": "食習慣"
+    },
+    "4": {
+      "question": "間食が多いですか？",
+      "related_factors": [
+        "間食多い"
+      ],
+      "category": "食習慣"
+    },
+    "5": {
+      "question": "運動不足だと感じますか？",
+      "related_factors": [
+        "運動不足"
+      ],
+      "category": "生活習慣"
+    },
+    "6": {
+      "question": "ストレスが多いですか？",
+      "related_factors": [
+        "ストレス"
+      ],
+      "category": "生活習慣"
+    },
+    "7": {
+      "question": "睡眠不足ですか？",
+      "related_factors": [
+        "睡眠不足"
+      ],
+      "category": "生活習慣"
+    },
+    "8": {
+      "question": "お酒を飲む習慣がありますか（週3回以上）？",
+      "related_factors": [
+        "飲酒",
+        "飲酒(10年以上の大酒）"
+      ],
+      "category": "食習慣"
+    },
+    "9": {
+      "question": "喫煙していますか（過去含む）？",
+      "related_factors": [
+        "喫煙"
+      ],
+      "category": "生活習慣"
+    },
+    "10": {
+      "question": "家族に糖尿病や高血圧の人がいますか？",
+      "related_factors": [
+        "遺伝"
+      ],
+      "category": "環境・遺伝"
+    }
+  },
+  "expansion_date": "2026-03-08",
+  "full_questionnaire_200": {
+    "1": {
+      "question": "機嫌が悪い時に甘いものが欲しくなる",
+      "related_factors": [
+        "甘物",
+        "間食多い"
+      ],
+      "related_diseases": [
+        "糖尿病",
+        "肥満",
+        "うつ病"
+      ],
+      "weight": 0.7
+    },
+    "2": {
+      "question": "ジュース類が好きである",
+      "related_factors": [
+        "甘物",
+        "清涼飲料"
+      ],
+      "related_diseases": [
+        "糖尿病",
+        "肥満",
+        "脂肪肝"
+      ],
+      "weight": 0.7
+    },
+    "3": {
+      "question": "コーヒーや紅茶に砂糖を入れる",
+      "related_factors": [
+        "甘物"
+      ],
+      "related_diseases": [
+        "糖尿病",
+        "動脈硬化"
+      ],
+      "weight": 0.7
+    },
+    "4": {
+      "question": "チョコレート、ケーキ類が好きである",
+      "related_factors": [
+        "甘物",
+        "脂肪"
+      ],
+      "related_diseases": [
+        "糖尿病",
+        "肥満"
+      ],
+      "weight": 0.7
+    },
+    "5": {
+      "question": "飴、ガムをよくかむ",
+      "related_factors": [
+        "甘物",
+        "間食多い"
+      ],
+      "related_diseases": [
+        "糖尿病",
+        "歯周病"
+      ],
+      "weight": 0.7
+    },
+    "6": {
+      "question": "アイスクリーム類が好きである",
+      "related_factors": [
+        "甘物",
+        "脂肪"
+      ],
+      "related_diseases": [
+        "糖尿病",
+        "肥満"
+      ],
+      "weight": 0.7
+    },
+    "7": {
+      "question": "コーヒーを1日3杯以上飲む",
+      "related_factors": [
+        "刺激物"
+      ],
+      "related_diseases": [
+        "不眠症",
+        "胃炎",
+        "不整脈"
+      ],
+      "weight": 0.7
+    },
+    "8": {
+      "question": "緑茶を1日5杯以上飲む",
+      "related_factors": [
+        "刺激物"
+      ],
+      "related_diseases": [
+        "不眠症",
+        "胃炎"
+      ],
+      "weight": 0.7
+    },
+    "9": {
+      "question": "炭酸飲料が好きである",
+      "related_factors": [
+        "清涼飲料",
+        "甘物"
+      ],
+      "related_diseases": [
+        "糖尿病",
+        "肥満"
+      ],
+      "weight": 0.7
+    },
+    "10": {
+      "question": "冷たい飲み物が好きである",
+      "related_factors": [
+        "冷たい物"
+      ],
+      "related_diseases": [
+        "慢性胃炎",
+        "過敏性腸症候群"
+      ],
+      "weight": 0.7
+    },
+    "11": {
+      "question": "お酒を週3回以上飲む",
+      "related_factors": [
+        "飲酒"
+      ],
+      "related_diseases": [
+        "肝疾患",
+        "高血圧",
+        "脂質異常症"
+      ],
+      "weight": 0.7
+    },
+    "12": {
+      "question": "お酒を飲むと翌日まで残る",
+      "related_factors": [
+        "飲酒"
+      ],
+      "related_diseases": [
+        "肝疾患",
+        "アルコール依存症"
+      ],
+      "weight": 0.7
+    },
+    "13": {
+      "question": "飲酒時に食事をあまり摂らない",
+      "related_factors": [
+        "飲酒時少食型"
+      ],
+      "related_diseases": [
+        "肝疾患",
+        "栄養失調"
+      ],
+      "weight": 0.7
+    },
+    "14": {
+      "question": "10年以上大酒を飲んでいる",
+      "related_factors": [
+        "飲酒(10年以上の大酒）"
+      ],
+      "related_diseases": [
+        "肝硬変",
+        "膵炎",
+        "がん"
+      ],
+      "weight": 0.7
+    },
+    "15": {
+      "question": "タバコを吸う（1日10本以上）",
+      "related_factors": [
+        "喫煙"
+      ],
+      "related_diseases": [
+        "肺がん",
+        "COPD",
+        "心筋梗塞"
+      ],
+      "weight": 0.7
+    },
+    "16": {
+      "question": "過去にタバコを吸っていた",
+      "related_factors": [
+        "喫煙"
+      ],
+      "related_diseases": [
+        "肺がん",
+        "COPD"
+      ],
+      "weight": 0.7
+    },
+    "17": {
+      "question": "水分をあまり摂らない",
+      "related_factors": [
+        "水分不足"
+      ],
+      "related_diseases": [
+        "便秘",
+        "腎結石",
+        "脱水"
+      ],
+      "weight": 0.7
+    },
+    "18": {
+      "question": "水分を過剰に摂る（1日3L以上）",
+      "related_factors": [
+        "水分過剰"
+      ],
+      "related_diseases": [
+        "浮腫",
+        "低ナトリウム血症"
+      ],
+      "weight": 0.7
+    },
+    "19": {
+      "question": "牛乳をよく飲む",
+      "related_factors": [
+        "牛乳"
+      ],
+      "related_diseases": [
+        "乳糖不耐症",
+        "骨粗鬆症"
+      ],
+      "weight": 0.7
+    },
+    "20": {
+      "question": "豆乳をよく飲む",
+      "related_factors": [
+        "大豆"
+      ],
+      "related_diseases": [
+        "甲状腺機能低下症"
+      ],
+      "weight": 0.7
+    },
+    "21": {
+      "question": "朝食を抜くことが多い",
+      "related_factors": [
+        "欠食型（朝食抜き）",
+        "不規則型"
+      ],
+      "related_diseases": [
+        "糖尿病",
+        "肥満",
+        "慢性疲労"
+      ],
+      "weight": 0.7
+    },
+    "22": {
+      "question": "昼食を抜くことが多い",
+      "related_factors": [
+        "欠食型（朝食抜き）"
+      ],
+      "related_diseases": [
+        "糖尿病",
+        "肥満"
+      ],
+      "weight": 0.7
+    },
+    "23": {
+      "question": "夕食が9時以降になることが多い",
+      "related_factors": [
+        "夜食方(寝る前の食事）",
+        "不規則型"
+      ],
+      "related_diseases": [
+        "肥満",
+        "逆流性食道炎"
+      ],
+      "weight": 0.7
+    },
+    "24": {
+      "question": "寝る前2時間以内に食事をする",
+      "related_factors": [
+        "夜食方(寝る前の食事）"
+      ],
+      "related_diseases": [
+        "肥満",
+        "逆流性食道炎",
+        "不眠症"
+      ],
+      "weight": 0.7
+    },
+    "25": {
+      "question": "食事時間が不規則である",
+      "related_factors": [
+        "不規則型"
+      ],
+      "related_diseases": [
+        "糖尿病",
+        "胃炎"
+      ],
+      "weight": 0.7
+    },
+    "26": {
+      "question": "早食いである",
+      "related_factors": [
+        "早食い型"
+      ],
+      "related_diseases": [
+        "肥満",
+        "糖尿病",
+        "胃炎"
+      ],
+      "weight": 0.7
+    },
+    "27": {
+      "question": "よく噛まずに飲み込む",
+      "related_factors": [
+        "早食い型"
+      ],
+      "related_diseases": [
+        "慢性胃炎",
+        "過敏性腸症候群"
+      ],
+      "weight": 0.7
+    },
+    "28": {
+      "question": "一人で食事をすることが多い",
+      "related_factors": [
+        "孤食"
+      ],
+      "related_diseases": [
+        "うつ病",
+        "摂食障害"
+      ],
+      "weight": 0.7
+    },
+    "29": {
+      "question": "テレビを見ながら食事をする",
+      "related_factors": [
+        "ながら食い"
+      ],
+      "related_diseases": [
+        "肥満",
+        "消化不良"
+      ],
+      "weight": 0.7
+    },
+    "30": {
+      "question": "立って食べることがある",
+      "related_factors": [
+        "立ち食い"
+      ],
+      "related_diseases": [
+        "胃下垂",
+        "消化不良"
+      ],
+      "weight": 0.7
+    },
+    "31": {
+      "question": "外食が週5回以上である",
+      "related_factors": [
+        "外食多い型"
+      ],
+      "related_diseases": [
+        "肥満",
+        "高血圧",
+        "脂質異常症"
+      ],
+      "weight": 0.7
+    },
+    "32": {
+      "question": "コンビニ弁当をよく食べる",
+      "related_factors": [
+        "外食多い型",
+        "加工食品"
+      ],
+      "related_diseases": [
+        "肥満",
+        "栄養失調"
+      ],
+      "weight": 0.7
+    },
+    "33": {
+      "question": "インスタント食品をよく食べる",
+      "related_factors": [
+        "加工食品"
+      ],
+      "related_diseases": [
+        "高血圧",
+        "栄養失調"
+      ],
+      "weight": 0.7
+    },
+    "34": {
+      "question": "冷凍食品をよく使う",
+      "related_factors": [
+        "加工食品"
+      ],
+      "related_diseases": [
+        "高血圧",
+        "栄養失調"
+      ],
+      "weight": 0.7
+    },
+    "35": {
+      "question": "ファーストフードをよく利用する",
+      "related_factors": [
+        "外食多い型",
+        "脂肪"
+      ],
+      "related_diseases": [
+        "肥満",
+        "糖尿病"
+      ],
+      "weight": 0.7
+    },
+    "81": {
+      "question": "肉が好きである",
+      "related_factors": [
+        "肉多い"
+      ],
+      "related_diseases": [
+        "大腸がん",
+        "高血圧",
+        "脂質異常症"
+      ],
+      "weight": 0.7
+    },
+    "82": {
+      "question": "揚げ物が好きである",
+      "related_factors": [
+        "脂肪",
+        "揚げ物"
+      ],
+      "related_diseases": [
+        "肥満",
+        "脂質異常症",
+        "胆石"
+      ],
+      "weight": 0.7
+    },
+    "83": {
+      "question": "焼肉・焼き魚の焦げ目が好き",
+      "related_factors": [
+        "焦げ目(肉＆魚）"
+      ],
+      "related_diseases": [
+        "がん"
+      ],
+      "weight": 0.7
+    },
+    "84": {
+      "question": "魚をあまり食べない",
+      "related_factors": [
+        "魚少ない"
+      ],
+      "related_diseases": [
+        "動脈硬化",
+        "認知症"
+      ],
+      "weight": 0.7
+    },
+    "85": {
+      "question": "野菜が嫌い",
+      "related_factors": [
+        "野菜少ない"
+      ],
+      "related_diseases": [
+        "肺がん",
+        "大腸がん",
+        "便秘"
+      ],
+      "weight": 0.7
+    },
+    "86": {
+      "question": "色の濃い野菜が嫌い",
+      "related_factors": [
+        "野菜少ない"
+      ],
+      "related_diseases": [
+        "がん",
+        "動脈硬化"
+      ],
+      "weight": 0.7
+    },
+    "87": {
+      "question": "果物をあまり食べない",
+      "related_factors": [
+        "果物少ない"
+      ],
+      "related_diseases": [
+        "便秘",
+        "ビタミン不足"
+      ],
+      "weight": 0.7
+    },
+    "88": {
+      "question": "海藻類をあまり食べない",
+      "related_factors": [
+        "海藻少ない"
+      ],
+      "related_diseases": [
+        "甲状腺疾患",
+        "便秘"
+      ],
+      "weight": 0.7
+    },
+    "89": {
+      "question": "きのこ類をあまり食べない",
+      "related_factors": [
+        "きのこ少ない"
+      ],
+      "related_diseases": [
+        "便秘",
+        "免疫低下"
+      ],
+      "weight": 0.7
+    },
+    "90": {
+      "question": "豆類をあまり食べない",
+      "related_factors": [
+        "豆少ない"
+      ],
+      "related_diseases": [
+        "脂質異常症",
+        "便秘"
+      ],
+      "weight": 0.7
+    },
+    "91": {
+      "question": "塩辛い物が好き",
+      "related_factors": [
+        "塩分"
+      ],
+      "related_diseases": [
+        "高血圧",
+        "胃がん",
+        "腎疾患"
+      ],
+      "weight": 0.7
+    },
+    "92": {
+      "question": "辛い物が好き",
+      "related_factors": [
+        "刺激物"
+      ],
+      "related_diseases": [
+        "胃炎",
+        "痔"
+      ],
+      "weight": 0.7
+    },
+    "93": {
+      "question": "酸っぱい物が好き",
+      "related_factors": [
+        "刺激物"
+      ],
+      "related_diseases": [
+        "胃炎",
+        "歯の侵食"
+      ],
+      "weight": 0.7
+    },
+    "94": {
+      "question": "濃い味付けが好き",
+      "related_factors": [
+        "塩分"
+      ],
+      "related_diseases": [
+        "高血圧",
+        "腎疾患"
+      ],
+      "weight": 0.7
+    },
+    "95": {
+      "question": "漬物をよく食べる",
+      "related_factors": [
+        "塩分"
+      ],
+      "related_diseases": [
+        "高血圧",
+        "胃がん"
+      ],
+      "weight": 0.7
+    },
+    "121": {
+      "question": "運動不足である",
+      "related_factors": [
+        "運動不足"
+      ],
+      "related_diseases": [
+        "肥満",
+        "糖尿病",
+        "高血圧"
+      ],
+      "weight": 0.7
+    },
+    "122": {
+      "question": "デスクワークが中心である",
+      "related_factors": [
+        "運動不足"
+      ],
+      "related_diseases": [
+        "肥満",
+        "腰痛",
+        "眼精疲労"
+      ],
+      "weight": 0.7
+    },
+    "123": {
+      "question": "通勤は車である",
+      "related_factors": [
+        "運動不足"
+      ],
+      "related_diseases": [
+        "肥満",
+        "糖尿病"
+      ],
+      "weight": 0.7
+    },
+    "124": {
+      "question": "エレベーターやエスカレーターを使う",
+      "related_factors": [
+        "運動不足"
+      ],
+      "related_diseases": [
+        "肥満"
+      ],
+      "weight": 0.7
+    },
+    "125": {
+      "question": "週末はほとんど家にいる",
+      "related_factors": [
+        "運動不足"
+      ],
+      "related_diseases": [
+        "肥満",
+        "うつ病"
+      ],
+      "weight": 0.7
+    },
+    "126": {
+      "question": "睡眠時間が6時間未満である",
+      "related_factors": [
+        "睡眠不足"
+      ],
+      "related_diseases": [
+        "肥満",
+        "糖尿病",
+        "高血圧"
+      ],
+      "weight": 0.7
+    },
+    "127": {
+      "question": "睡眠時間が9時間以上である",
+      "related_factors": [
+        "睡眠過剰"
+      ],
+      "related_diseases": [
+        "うつ病",
+        "糖尿病"
+      ],
+      "weight": 0.7
+    },
+    "128": {
+      "question": "寝つきが悪い",
+      "related_factors": [
+        "不眠症"
+      ],
+      "related_diseases": [
+        "うつ病",
+        "高血圧"
+      ],
+      "weight": 0.7
+    },
+    "129": {
+      "question": "夜中に目が覚める",
+      "related_factors": [
+        "不眠症"
+      ],
+      "related_diseases": [
+        "うつ病",
+        "前立腺肥大"
+      ],
+      "weight": 0.7
+    },
+    "130": {
+      "question": "朝起きるのがつらい",
+      "related_factors": [
+        "睡眠障害"
+      ],
+      "related_diseases": [
+        "うつ病",
+        "睡眠時無呼吸症候群"
+      ],
+      "weight": 0.7
+    },
+    "131": {
+      "question": "ストレスが多い",
+      "related_factors": [
+        "ストレス"
+      ],
+      "related_diseases": [
+        "高血圧",
+        "胃潰瘍",
+        "うつ病"
+      ],
+      "weight": 0.7
+    },
+    "132": {
+      "question": "イライラすることが多い",
+      "related_factors": [
+        "ストレス"
+      ],
+      "related_diseases": [
+        "高血圧",
+        "不整脈"
+      ],
+      "weight": 0.7
+    },
+    "133": {
+      "question": "不安を感じることが多い",
+      "related_factors": [
+        "ストレス"
+      ],
+      "related_diseases": [
+        "うつ病",
+        "パニック障害"
+      ],
+      "weight": 0.7
+    },
+    "134": {
+      "question": "人間関係で悩むことが多い",
+      "related_factors": [
+        "ストレス"
+      ],
+      "related_diseases": [
+        "うつ病",
+        "不眠症"
+      ],
+      "weight": 0.7
+    },
+    "135": {
+      "question": "仕事のプレッシャーが強い",
+      "related_factors": [
+        "ストレス"
+      ],
+      "related_diseases": [
+        "高血圧",
+        "うつ病"
+      ],
+      "weight": 0.7
+    },
+    "161": {
+      "question": "家族に糖尿病の人がいる",
+      "related_factors": [
+        "遺伝"
+      ],
+      "related_diseases": [
+        "糖尿病",
+        "肥満"
+      ],
+      "weight": 0.7
+    },
+    "162": {
+      "question": "家族に高血圧の人がいる",
+      "related_factors": [
+        "遺伝"
+      ],
+      "related_diseases": [
+        "高血圧",
+        "心筋梗塞"
+      ],
+      "weight": 0.7
+    },
+    "163": {
+      "question": "家族にがんの人がいる",
+      "related_factors": [
+        "遺伝"
+      ],
+      "related_diseases": [
+        "各種がん"
+      ],
+      "weight": 0.7
+    },
+    "164": {
+      "question": "家族に心臓病の人がいる",
+      "related_factors": [
+        "遺伝"
+      ],
+      "related_diseases": [
+        "心筋梗塞",
+        "狭心症"
+      ],
+      "weight": 0.7
+    },
+    "165": {
+      "question": "家族に脳卒中の人がいる",
+      "related_factors": [
+        "遺伝"
+      ],
+      "related_diseases": [
+        "脳梗塞",
+        "脳出血"
+      ],
+      "weight": 0.7
+    },
+    "166": {
+      "question": "疲れやすい",
+      "related_factors": [
+        "慢性疲労"
+      ],
+      "related_diseases": [
+        "慢性疲労症候群",
+        "貧血"
+      ],
+      "weight": 0.7
+    },
+    "167": {
+      "question": "だるさが抜けない",
+      "related_factors": [
+        "慢性疲労"
+      ],
+      "related_diseases": [
+        "慢性疲労症候群",
+        "甲状腺機能低下症"
+      ],
+      "weight": 0.7
+    },
+    "168": {
+      "question": "肩こりがある",
+      "related_factors": [
+        "筋骨格系"
+      ],
+      "related_diseases": [
+        "頸椎症",
+        "高血圧"
+      ],
+      "weight": 0.7
+    },
+    "169": {
+      "question": "腰痛がある",
+      "related_factors": [
+        "筋骨格系"
+      ],
+      "related_diseases": [
+        "腰椎症",
+        "腎疾患"
+      ],
+      "weight": 0.7
+    },
+    "170": {
+      "question": "頭痛がよくある",
+      "related_factors": [
+        "慢性頭痛"
+      ],
+      "related_diseases": [
+        "片頭痛",
+        "高血圧",
+        "脳腫瘍"
+      ],
+      "weight": 0.7
+    },
+    "171": {
+      "question": "めまいがする",
+      "related_factors": [
+        "めまい"
+      ],
+      "related_diseases": [
+        "メニエール病",
+        "貧血"
+      ],
+      "weight": 0.7
+    },
+    "172": {
+      "question": "動悸がする",
+      "related_factors": [
+        "循環器症状"
+      ],
+      "related_diseases": [
+        "不整脈",
+        "甲状腺機能亢進症"
+      ],
+      "weight": 0.7
+    },
+    "173": {
+      "question": "息切れがする",
+      "related_factors": [
+        "呼吸器症状"
+      ],
+      "related_diseases": [
+        "心不全",
+        "COPD",
+        "貧血"
+      ],
+      "weight": 0.7
+    },
+    "174": {
+      "question": "手足のしびれがある",
+      "related_factors": [
+        "神経症状"
+      ],
+      "related_diseases": [
+        "糖尿病神経障害",
+        "頸椎症"
+      ],
+      "weight": 0.7
+    },
+    "175": {
+      "question": "むくみがある",
+      "related_factors": [
+        "浮腫"
+      ],
+      "related_diseases": [
+        "心不全",
+        "腎不全",
+        "肝硬変"
+      ],
+      "weight": 0.7
+    },
+    "176": {
+      "question": "便秘がちである",
+      "related_factors": [
+        "便秘"
+      ],
+      "related_diseases": [
+        "大腸がん",
+        "甲状腺機能低下症"
+      ],
+      "weight": 0.7
+    },
+    "177": {
+      "question": "下痢をしやすい",
+      "related_factors": [
+        "下痢"
+      ],
+      "related_diseases": [
+        "過敏性腸症候群",
+        "潰瘍性大腸炎"
+      ],
+      "weight": 0.7
+    },
+    "178": {
+      "question": "胃もたれがする",
+      "related_factors": [
+        "消化器症状"
+      ],
+      "related_diseases": [
+        "慢性胃炎",
+        "胃がん"
+      ],
+      "weight": 0.7
+    },
+    "179": {
+      "question": "胸やけがする",
+      "related_factors": [
+        "消化器症状"
+      ],
+      "related_diseases": [
+        "逆流性食道炎"
+      ],
+      "weight": 0.7
+    },
+    "180": {
+      "question": "食欲不振である",
+      "related_factors": [
+        "食欲不振"
+      ],
+      "related_diseases": [
+        "うつ病",
+        "胃がん",
+        "肝疾患"
+      ],
+      "weight": 0.7
+    },
+    "181": {
+      "question": "最近体重が増えた（3ヶ月で5kg以上）",
+      "related_factors": [
+        "体重増加"
+      ],
+      "related_diseases": [
+        "肥満",
+        "糖尿病"
+      ],
+      "weight": 0.7
+    },
+    "182": {
+      "question": "最近体重が減った（3ヶ月で5kg以上）",
+      "related_factors": [
+        "体重減少"
+      ],
+      "related_diseases": [
+        "がん",
+        "甲状腺機能亢進症"
+      ],
+      "weight": 0.7
+    },
+    "183": {
+      "question": "肌荒れがある",
+      "related_factors": [
+        "皮膚症状"
+      ],
+      "related_diseases": [
+        "アトピー性皮膚炎",
+        "栄養失調"
+      ],
+      "weight": 0.7
+    },
+    "184": {
+      "question": "目が疲れやすい",
+      "related_factors": [
+        "眼精疲労"
+      ],
+      "related_diseases": [
+        "ドライアイ",
+        "緑内障"
+      ],
+      "weight": 0.7
+    },
+    "185": {
+      "question": "耳鳴りがする",
+      "related_factors": [
+        "耳症状"
+      ],
+      "related_diseases": [
+        "メニエール病",
+        "突発性難聴"
+      ],
+      "weight": 0.7
+    },
+    "186": {
+      "question": "鼻づまりがある",
+      "related_factors": [
+        "鼻症状"
+      ],
+      "related_diseases": [
+        "アレルギー性鼻炎",
+        "副鼻腔炎"
+      ],
+      "weight": 0.7
+    },
+    "187": {
+      "question": "のどの違和感がある",
+      "related_factors": [
+        "咽喉頭症状"
+      ],
+      "related_diseases": [
+        "咽頭炎",
+        "甲状腺疾患"
+      ],
+      "weight": 0.7
+    },
+    "188": {
+      "question": "口が渇く",
+      "related_factors": [
+        "口渇"
+      ],
+      "related_diseases": [
+        "糖尿病",
+        "シェーグレン症候群"
+      ],
+      "weight": 0.7
+    },
+    "189": {
+      "question": "歯ぐきから出血する",
+      "related_factors": [
+        "歯周病"
+      ],
+      "related_diseases": [
+        "歯周病",
+        "白血病"
+      ],
+      "weight": 0.7
+    },
+    "190": {
+      "question": "口臭が気になる",
+      "related_factors": [
+        "口臭"
+      ],
+      "related_diseases": [
+        "歯周病",
+        "胃腸疾患"
+      ],
+      "weight": 0.7
+    },
+    "191": {
+      "question": "尿の回数が多い（1日8回以上）",
+      "related_factors": [
+        "頻尿"
+      ],
+      "related_diseases": [
+        "糖尿病",
+        "前立腺肥大"
+      ],
+      "weight": 0.7
+    },
+    "192": {
+      "question": "尿の回数が少ない（1日3回以下）",
+      "related_factors": [
+        "乏尿"
+      ],
+      "related_diseases": [
+        "腎不全",
+        "脱水"
+      ],
+      "weight": 0.7
+    },
+    "193": {
+      "question": "尿の色が濃い",
+      "related_factors": [
+        "尿異常"
+      ],
+      "related_diseases": [
+        "肝疾患",
+        "脱水"
+      ],
+      "weight": 0.7
+    },
+    "194": {
+      "question": "残尿感がある",
+      "related_factors": [
+        "排尿障害"
+      ],
+      "related_diseases": [
+        "前立腺肥大",
+        "膀胱炎"
+      ],
+      "weight": 0.7
+    },
+    "195": {
+      "question": "夜間に何度もトイレに起きる",
+      "related_factors": [
+        "夜間頻尿"
+      ],
+      "related_diseases": [
+        "前立腺肥大",
+        "糖尿病"
+      ],
+      "weight": 0.7
+    },
+    "196": {
+      "question": "生理不順である",
+      "related_factors": [
+        "婦人科症状"
+      ],
+      "related_diseases": [
+        "多嚢胞性卵巣症候群",
+        "甲状腺疾患"
+      ],
+      "weight": 0.7
+    },
+    "197": {
+      "question": "更年期症状がある",
+      "related_factors": [
+        "婦人科症状"
+      ],
+      "related_diseases": [
+        "更年期障害"
+      ],
+      "weight": 0.7
+    },
+    "198": {
+      "question": "冷え性である",
+      "related_factors": [
+        "冷え性"
+      ],
+      "related_diseases": [
+        "甲状腺機能低下症",
+        "貧血"
+      ],
+      "weight": 0.7
+    },
+    "199": {
+      "question": "汗をかきやすい",
+      "related_factors": [
+        "発汗異常"
+      ],
+      "related_diseases": [
+        "甲状腺機能亢進症",
+        "糖尿病"
+      ],
+      "weight": 0.7
+    },
+    "200": {
+      "question": "体温が低い（36度未満）",
+      "related_factors": [
+        "低体温"
+      ],
+      "related_diseases": [
+        "甲状腺機能低下症",
+        "栄養失調"
+      ],
+      "weight": 0.7
+    }
+  },
+  "phytochemicals_detailed": {
+    "anthocyanin": {
+      "name": "アントシアニン",
+      "japanese_name": "アントシアニン",
+      "classification": "ポリフェノール群",
+      "subcategory": "フラボノイド系",
+      "chemical_group": "アントシアニジン類",
+      "color": "赤色～紫色",
+      "defense_type": "HYDROPHILIC",
+      "source_foods": [
+        "ブドウ",
+        "ブルーベリー",
+        "黒米",
+        "紫芋",
+        "赤紫蘇",
+        "ナス"
+      ],
+      "key_minerals": [
+        "K",
+        "Mg"
+      ],
+      "mbt_pathway": "PATH_05",
+      "clinical_benefits": [
+        "抗酸化作用",
+        "視力改善",
+        "血管保護",
+        "認知機能維持"
+      ],
+      "bioavailability": "中",
+      "absorption_mechanism": "小腸での直接吸収＋腸内細菌による代謝",
+      "daily_intake_mg": "50-100"
+    },
+    "quercetin": {
+      "name": "ケルセチン",
+      "japanese_name": "ケルセチン",
+      "classification": "ポリフェノール群",
+      "subcategory": "フラボノイド系",
+      "chemical_group": "フラボノール類",
+      "color": "黄色～褐色",
+      "defense_type": "HYDROPHILIC",
+      "source_foods": [
+        "玉ねぎ",
+        "ブロッコリー",
+        "りんご",
+        "緑茶"
+      ],
+      "key_minerals": [
+        "S",
+        "Se"
+      ],
+      "mbt_pathway": "PATH_04",
+      "clinical_benefits": [
+        "抗アレルギー",
+        "抗炎症",
+        "血管拡張",
+        "抗がん作用"
+      ],
+      "bioavailability": "低～中",
+      "absorption_mechanism": "配糖体として摂取→腸内細菌で脱糖→吸収",
+      "daily_intake_mg": "15-40"
+    },
+    "catechin": {
+      "name": "カテキン",
+      "japanese_name": "カテキン",
+      "classification": "ポリフェノール群",
+      "subcategory": "フラボノイド系",
+      "chemical_group": "フラバノール類",
+      "color": "褐色",
+      "defense_type": "HYDROPHILIC",
+      "source_foods": [
+        "緑茶",
+        "紅茶",
+        "ウーロン茶",
+        "カカオ"
+      ],
+      "key_minerals": [
+        "Mn",
+        "Cu"
+      ],
+      "mbt_pathway": "PATH_05",
+      "clinical_benefits": [
+        "抗ウイルス",
+        "脂質代謝改善",
+        "血糖値抑制",
+        "認知機能維持"
+      ],
+      "bioavailability": "中～高",
+      "absorption_mechanism": "小腸で一部直接吸収、肝臓で代謝",
+      "daily_intake_mg": "200-500"
+    },
+    "isoflavone": {
+      "name": "イソフラボン",
+      "japanese_name": "イソフラボン",
+      "classification": "ポリフェノール群",
+      "subcategory": "フラボノイド系",
+      "chemical_group": "イソフラボン類",
+      "color": "無色～淡黄色",
+      "defense_type": "HYDROPHILIC",
+      "source_foods": [
+        "大豆",
+        "豆腐",
+        "納豆",
+        "味噌",
+        "豆乳"
+      ],
+      "key_minerals": [
+        "Ca",
+        "Mg"
+      ],
+      "mbt_pathway": "PATH_01",
+      "clinical_benefits": [
+        "エストロゲン様作用",
+        "更年期症状改善",
+        "骨粗鬆症予防",
+        "前立腺保護"
+      ],
+      "bioavailability": "低～中",
+      "absorption_mechanism": "配糖体→腸内細菌でアグリコン化→吸収",
+      "daily_intake_mg": "40-80"
+    },
+    "rutin": {
+      "name": "ルチン",
+      "japanese_name": "ルチン",
+      "classification": "ポリフェノール群",
+      "subcategory": "フラボノイド系",
+      "chemical_group": "フラボノール配糖体",
+      "color": "黄褐色",
+      "defense_type": "HYDROPHILIC",
+      "source_foods": [
+        "そば",
+        "アスパラガス",
+        "柑橘類の皮"
+      ],
+      "key_minerals": [
+        "Mg",
+        "K"
+      ],
+      "mbt_pathway": "PATH_04",
+      "clinical_benefits": [
+        "毛細血管強化",
+        "血圧降下",
+        "抗炎症",
+        "抗酸化"
+      ],
+      "bioavailability": "中",
+      "absorption_mechanism": "腸内細菌で分解後、ケルセチンとして吸収",
+      "daily_intake_mg": "30-60"
+    },
+    "lycopene": {
+      "name": "リコピン",
+      "japanese_name": "リコピン",
+      "classification": "カロテノイド群",
+      "subcategory": "カロテン類",
+      "chemical_group": "非環式カロテノイド",
+      "color": "赤色",
+      "defense_type": "LIPOPHILIC",
+      "source_foods": [
+        "トマト",
+        "スイカ",
+        "ピンクグレープフルーツ",
+        "柿"
+      ],
+      "key_minerals": [
+        "Se",
+        "Zn"
+      ],
+      "mbt_pathway": "PATH_03",
+      "clinical_benefits": [
+        "強力な抗酸化",
+        "前立腺がん予防",
+        "紫外線耐性",
+        "心血管保護"
+      ],
+      "bioavailability": "中～高",
+      "absorption_mechanism": "脂質ミセル化→小腸吸収→リポ蛋白で輸送",
+      "daily_intake_mg": "6-15"
+    },
+    "beta_carotene": {
+      "name": "β-カロテン",
+      "japanese_name": "ベータカロテン",
+      "classification": "カロテノイド群",
+      "subcategory": "カロテン類",
+      "chemical_group": "プロビタミンA",
+      "color": "橙色",
+      "defense_type": "LIPOPHILIC",
+      "source_foods": [
+        "人参",
+        "かぼちゃ",
+        "ほうれん草",
+        "モロヘイヤ"
+      ],
+      "key_minerals": [
+        "Zn",
+        "Se"
+      ],
+      "mbt_pathway": "PATH_03",
+      "clinical_benefits": [
+        "ビタミンA供給",
+        "免疫増強",
+        "視力保護",
+        "皮膚保護"
+      ],
+      "bioavailability": "中",
+      "absorption_mechanism": "脂質ミセル化→小腸→肝臓でビタミンA変換",
+      "daily_intake_mg": "2-6"
+    },
+    "lutein": {
+      "name": "ルテイン",
+      "japanese_name": "ルテイン",
+      "classification": "カロテノイド群",
+      "subcategory": "キサントフィル類",
+      "chemical_group": "ヒドロキシカロテノイド",
+      "color": "黄色",
+      "defense_type": "LIPOPHILIC",
+      "source_foods": [
+        "ほうれん草",
+        "ケール",
+        "ブロッコリー",
+        "卵黄"
+      ],
+      "key_minerals": [
+        "Zn",
+        "Se"
+      ],
+      "mbt_pathway": "PATH_03",
+      "clinical_benefits": [
+        "黄斑保護",
+        "白内障予防",
+        "認知機能維持",
+        "皮膚保護"
+      ],
+      "bioavailability": "中～高",
+      "absorption_mechanism": "脂質ミセル化→小腸→血中HDLで輸送",
+      "daily_intake_mg": "6-10"
+    },
+    "allicin": {
+      "name": "アリシン",
+      "japanese_name": "アリシン",
+      "classification": "硫黄化合物群",
+      "subcategory": "システインスルホキシド類",
+      "chemical_group": "有機硫黄化合物",
+      "color": "無色",
+      "defense_type": "SULFUR",
+      "source_foods": [
+        "にんにく",
+        "玉ねぎ",
+        "ニラ",
+        "らっきょう"
+      ],
+      "key_minerals": [
+        "S",
+        "Zn"
+      ],
+      "mbt_pathway": "PATH_01",
+      "clinical_benefits": [
+        "血流改善",
+        "抗血栓",
+        "免疫賦活",
+        "抗菌作用"
+      ],
+      "bioavailability": "高",
+      "absorption_mechanism": "揮発性→直接吸収→速やかに代謝",
+      "daily_intake_mg": "5-20"
+    },
+    "sulforaphane": {
+      "name": "スルフォラファン",
+      "japanese_name": "スルフォラファン",
+      "classification": "硫黄化合物群",
+      "subcategory": "イソチオシアネート類",
+      "chemical_group": "グルコシノレート代謝物",
+      "color": "無色",
+      "defense_type": "SULFUR",
+      "source_foods": [
+        "ブロッコリースプラウト",
+        "ブロッコリー",
+        "キャベツ",
+        "白菜"
+      ],
+      "key_minerals": [
+        "S",
+        "Se"
+      ],
+      "mbt_pathway": "PATH_01",
+      "clinical_benefits": [
+        "解毒酵素誘導",
+        "抗がん作用",
+        "抗酸化",
+        "ピロリ菌抑制"
+      ],
+      "bioavailability": "中～高",
+      "absorption_mechanism": "ミロシナーゼ酵素で活性化→腸管吸収",
+      "daily_intake_mg": "30-50"
+    },
+    "curcumin": {
+      "name": "クルクミン",
+      "japanese_name": "クルクミン",
+      "classification": "ポリフェノール群",
+      "subcategory": "クルクミノイド類",
+      "chemical_group": "ジアリールヘプタノイド",
+      "color": "黄色",
+      "defense_type": "LIPOPHILIC",
+      "source_foods": [
+        "ウコン",
+        "ターメリック",
+        "カレー"
+      ],
+      "key_minerals": [
+        "Fe",
+        "Mg"
+      ],
+      "mbt_pathway": "PATH_02",
+      "clinical_benefits": [
+        "抗炎症",
+        "肝保護",
+        "抗酸化",
+        "認知機能改善"
+      ],
+      "bioavailability": "極めて低",
+      "absorption_mechanism": "脂質ミセル化+ピペリンで吸収促進",
+      "daily_intake_mg": "200-500"
+    },
+    "capsaicin": {
+      "name": "カプサイシン",
+      "japanese_name": "カプサイシン",
+      "classification": "アルカロイド群",
+      "subcategory": "カプサイシノイド類",
+      "chemical_group": "バニリルアミド誘導体",
+      "color": "無色",
+      "defense_type": "LIPOPHILIC",
+      "source_foods": [
+        "唐辛子",
+        "チリペッパー",
+        "ハバネロ"
+      ],
+      "key_minerals": [
+        "K",
+        "Mg"
+      ],
+      "mbt_pathway": "PATH_04",
+      "clinical_benefits": [
+        "代謝促進",
+        "脂肪燃焼",
+        "血行促進",
+        "鎮痛作用"
+      ],
+      "bioavailability": "高",
+      "absorption_mechanism": "脂溶性→速やかに吸収→肝臓で代謝",
+      "daily_intake_mg": "6-9"
+    }
+  },
+  "total_questionnaire_items": 105
+}

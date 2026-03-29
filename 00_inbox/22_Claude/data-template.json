@@ -1,0 +1,372 @@
+{
+  "case_study": {
+    "id": "CS-[NUMBER]-[YEAR]",
+    "title": "[Application Name]",
+    "category": "[Category: agriculture/aquaculture/environmental/health]",
+    "status": "[completed/ongoing/published]",
+    "date_started": "YYYY-MM-DD",
+    "date_completed": "YYYY-MM-DD",
+    "location": {
+      "country": "[Country]",
+      "region": "[State/Province]",
+      "coordinates": {
+        "latitude": 0.0,
+        "longitude": 0.0
+      }
+    }
+  },
+  
+  "problem": {
+    "description": "[Problem description]",
+    "severity": "[low/medium/high/critical]",
+    "affected_population": 0,
+    "economic_impact_usd": 0,
+    "environmental_impact": "[Description]",
+    "baseline_metrics": {
+      "metric_1": {
+        "name": "[Metric name]",
+        "value": 0.0,
+        "unit": "[Unit]",
+        "measurement_date": "YYYY-MM-DD",
+        "method": "[Measurement method]"
+      },
+      "metric_2": {
+        "name": "[Metric name]",
+        "value": 0.0,
+        "unit": "[Unit]",
+        "measurement_date": "YYYY-MM-DD",
+        "method": "[Measurement method]"
+      }
+    }
+  },
+  
+  "mbt55_intervention": {
+    "preparation": {
+      "mbt55_batch": "[Batch ID]",
+      "microbial_composition": {
+        "aerobic_percentage": 55,
+        "anaerobic_percentage": 45,
+        "dominant_species": [
+          "Bacillus subtilis",
+          "Lactobacillus plantarum",
+          "[Other species]"
+        ]
+      },
+      "application_method": "[Description]",
+      "dosage": {
+        "amount": 0.0,
+        "unit": "[kg/ha or other]",
+        "frequency": "[daily/weekly/monthly]"
+      }
+    },
+    
+    "implementation": {
+      "start_date": "YYYY-MM-DD",
+      "end_date": "YYYY-MM-DD",
+      "duration_days": 0,
+      "phases": [
+        {
+          "phase_number": 1,
+          "name": "[Phase name]",
+          "start_date": "YYYY-MM-DD",
+          "end_date": "YYYY-MM-DD",
+          "activities": [
+            "[Activity 1]",
+            "[Activity 2]"
+          ]
+        }
+      ]
+    },
+    
+    "environmental_conditions": {
+      "temperature": {
+        "min": 0.0,
+        "max": 0.0,
+        "avg": 0.0,
+        "unit": "celsius"
+      },
+      "humidity": {
+        "avg": 0.0,
+        "unit": "percentage"
+      },
+      "pH": {
+        "initial": 0.0,
+        "final": 0.0
+      },
+      "rainfall_mm": 0.0
+    }
+  },
+  
+  "results": {
+    "primary_outcomes": {
+      "outcome_1": {
+        "name": "[Metric name]",
+        "baseline_value": 0.0,
+        "final_value": 0.0,
+        "unit": "[Unit]",
+        "change_absolute": 0.0,
+        "change_percentage": 0.0,
+        "improvement_direction": "[increase/decrease]",
+        "measurement_method": "[Method]",
+        "statistical_significance": {
+          "p_value": 0.001,
+          "confidence_interval_95": [0.0, 0.0],
+          "standard_deviation": 0.0
+        }
+      },
+      "outcome_2": {
+        "name": "[Metric name]",
+        "baseline_value": 0.0,
+        "final_value": 0.0,
+        "unit": "[Unit]",
+        "change_absolute": 0.0,
+        "change_percentage": 0.0,
+        "improvement_direction": "[increase/decrease]",
+        "measurement_method": "[Method]"
+      }
+    },
+    
+    "secondary_outcomes": {
+      "soil_health": {
+        "organic_carbon_percentage": {
+          "before": 0.0,
+          "after": 0.0,
+          "change": 0.0
+        },
+        "microbial_biomass_mg_kg": {
+          "before": 0.0,
+          "after": 0.0,
+          "change": 0.0
+        },
+        "water_holding_capacity_percentage": {
+          "before": 0.0,
+          "after": 0.0,
+          "change": 0.0
+        }
+      },
+      
+      "environmental_impact": {
+        "ghg_emissions_reduction": {
+          "co2_tonnes": 0.0,
+          "ch4_tonnes": 0.0,
+          "n2o_tonnes": 0.0,
+          "total_co2e_tonnes": 0.0
+        },
+        "water_quality": {
+          "nh4_reduction_percentage": 0.0,
+          "no3_reduction_percentage": 0.0,
+          "bod_reduction_percentage": 0.0
+        }
+      }
+    },
+    
+    "comparison_with_control": {
+      "control_group_exists": true,
+      "control_group_size": 0,
+      "treatment_group_size": 0,
+      "relative_improvement_vs_control": {
+        "metric_1": 0.0,
+        "metric_2": 0.0
+      }
+    },
+    
+    "comparison_with_alternatives": [
+      {
+        "alternative_solution": "[Name]",
+        "metric": "[Metric name]",
+        "alternative_value": 0.0,
+        "mbt55_value": 0.0,
+        "mbt55_improvement_percentage": 0.0
+      }
+    ]
+  },
+  
+  "economic_analysis": {
+    "investment": {
+      "mbt55_materials_usd": 0.0,
+      "equipment_usd": 0.0,
+      "labor_usd": 0.0,
+      "monitoring_usd": 0.0,
+      "other_costs_usd": 0.0,
+      "total_investment_usd": 0.0
+    },
+    
+    "returns": {
+      "annual_revenue_increase_usd": 0.0,
+      "annual_cost_savings_usd": 0.0,
+      "avoided_losses_usd": 0.0,
+      "carbon_credits_usd": 0.0,
+      "other_benefits_usd": 0.0,
+      "total_annual_return_usd": 0.0
+    },
+    
+    "roi_metrics": {
+      "roi_percentage": 0.0,
+      "payback_period_months": 0,
+      "npv_5_years_usd": 0.0,
+      "irr_percentage": 0.0
+    },
+    
+    "scalability": {
+      "cost_per_hectare_usd": 0.0,
+      "cost_per_unit_usd": 0.0,
+      "economies_of_scale_factor": 0.0
+    }
+  },
+  
+  "social_impact": {
+    "employment": {
+      "jobs_created": 0,
+      "jobs_female_percentage": 0.0,
+      "jobs_youth_percentage": 0.0
+    },
+    
+    "health": {
+      "people_affected": 0,
+      "health_improvement_metric": "[Description]",
+      "medical_cost_savings_per_person_usd": 0.0
+    },
+    
+    "education": {
+      "training_provided": true,
+      "people_trained": 0,
+      "knowledge_transfer_activities": 0
+    }
+  },
+  
+  "video_evidence": {
+    "videos": [
+      {
+        "id": "VID-001",
+        "title": "[Video title]",
+        "type": "[overview/before/during/after/timelapse]",
+        "platform": "[YouTube/LinkedIn/Vimeo]",
+        "url": "[Full URL]",
+        "duration_seconds": 0,
+        "date_recorded": "YYYY-MM-DD",
+        "description": "[What the video shows]",
+        "key_timestamps": [
+          {
+            "time": "00:00",
+            "description": "[What happens at this timestamp]"
+          },
+          {
+            "time": "01:30",
+            "description": "[What happens at this timestamp]"
+          }
+        ],
+        "resolution": "[1080p/4K]",
+        "file_size_mb": 0.0
+      }
+    ],
+    
+    "images": [
+      {
+        "id": "IMG-001",
+        "filename": "before-001.jpg",
+        "type": "[before/after/process]",
+        "date_taken": "YYYY-MM-DD",
+        "description": "[Image description]",
+        "resolution": "[WxH]"
+      }
+    ]
+  },
+  
+  "scientific_validation": {
+    "peer_review": {
+      "status": "[published/under_review/in_preparation]",
+      "journal": "[Journal name]",
+      "doi": "[DOI if published]",
+      "submission_date": "YYYY-MM-DD",
+      "publication_date": "YYYY-MM-DD"
+    },
+    
+    "third_party_verification": [
+      {
+        "organization": "[Organization name]",
+        "verification_date": "YYYY-MM-DD",
+        "report_url": "[URL]",
+        "findings": "[Summary]"
+      }
+    ],
+    
+    "certifications": [
+      {
+        "type": "[ISO/Organic/Carbon Credit]",
+        "issuing_body": "[Organization]",
+        "certificate_number": "[Number]",
+        "issue_date": "YYYY-MM-DD",
+        "expiry_date": "YYYY-MM-DD"
+      }
+    ]
+  },
+  
+  "replication_potential": {
+    "geographic_suitability": [
+      "[Climate zone 1]",
+      "[Climate zone 2]"
+    ],
+    "scalability_rating": "[low/medium/high]",
+    "barriers_to_replication": [
+      "[Barrier 1]",
+      "[Barrier 2]"
+    ],
+    "estimated_global_applicability_hectares": 0
+  },
+  
+  "lessons_learned": {
+    "successes": [
+      "[Success 1]",
+      "[Success 2]"
+    ],
+    "challenges": [
+      "[Challenge 1]",
+      "[Challenge 2]"
+    ],
+    "recommendations": [
+      "[Recommendation 1]",
+      "[Recommendation 2]"
+    ]
+  },
+  
+  "contacts": {
+    "primary_investigator": {
+      "name": "[Name]",
+      "title": "[Title]",
+      "organization": "[Organization]",
+      "email": "[Email]",
+      "phone": "[Phone]"
+    },
+    "site_manager": {
+      "name": "[Name]",
+      "email": "[Email]"
+    }
+  },
+  
+  "metadata": {
+    "document_version": "1.0",
+    "created_date": "YYYY-MM-DD",
+    "last_updated": "YYYY-MM-DD",
+    "author": "[Name]",
+    "review_status": "[draft/reviewed/approved]",
+    "data_license": "[License type]"
+  },
+  
+  "references": {
+    "scientific_papers": [
+      {
+        "citation": "[Full citation]",
+        "doi": "[DOI]",
+        "relevance": "[How it relates to this case study]"
+      }
+    ],
+    "technical_reports": [
+      {
+        "title": "[Report title]",
+        "organization": "[Organization]",
+        "year": 0,
+        "url": "[URL]"
+      }
+    ]
+  }
+}

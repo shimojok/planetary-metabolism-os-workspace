@@ -1,0 +1,957 @@
+{
+  "mbt_kampo_library": {
+    "version": "2.41.0",
+    "last_updated": "2026-02-25",
+    "total_formulas": 294,
+    "fully_defined": 196,
+    "phase": 41,
+    "priority": "medium",
+    "formulas": {
+      "F166": {
+        "id": "F166",
+        "name": "五積散",
+        "category": "冷え・関節痛・感冒",
+        "main_herbs": ["蒼朮", "陳皮", "厚朴", "甘草", "茯苓", "半夏", "当帰", "川芎", "芍薬", "白芷", "枳実", "桔梗", "乾姜", "桂枝", "麻黄"],
+        "components": {
+          "蒼朮": {
+            "phytochemicals": [
+              {
+                "name": "アトラクチロジン",
+                "type": "セスキテルペン",
+                "concentration_mg_per_g": "0.5-1.2",
+                "metabolic_pathway": "PATH_04",
+                "key_microbes": ["酵母"],
+                "active_metabolite": "アトラクチロジン",
+                "mechanism": "消化促進",
+                "clinical_effects": ["食欲増進"],
+                "bioavailability": "高"
+              }
+            ]
+          },
+          "陳皮": {
+            "phytochemicals": [
+              {
+                "name": "ヘスペリジン",
+                "type": "フラバノン配糖体",
+                "concentration_mg_per_g": "5.0-10.0",
+                "metabolic_pathway": "PATH_01",
+                "active_metabolite": "ヘスペレチン",
+                "mechanism": "抗酸化",
+                "clinical_effects": ["血管保護"],
+                "bioavailability": "中"
+              }
+            ]
+          },
+          "厚朴": {
+            "phytochemicals": [
+              {
+                "name": "マグノロール",
+                "type": "リグナン",
+                "concentration_mg_per_g": "2.0-5.0",
+                "metabolic_pathway": "PATH_01",
+                "active_metabolite": "マグノロール",
+                "mechanism": "抗不安",
+                "clinical_effects": ["ストレス緩和"],
+                "bioavailability": "中"
+              }
+            ]
+          },
+          "甘草": {
+            "phytochemicals": [
+              {
+                "name": "グリチルリチン",
+                "type": "トリテルペンサポニン",
+                "concentration_mg_per_g": "2.0-4.0",
+                "metabolic_pathway": "PATH_01",
+                "active_metabolite": "グリチルレチン酸",
+                "mechanism": "抗炎症",
+                "clinical_effects": ["炎症抑制"],
+                "bioavailability": "中"
+              }
+            ]
+          },
+          "茯苓": {
+            "polysaccharides": {
+              "type": "β-グルカン",
+              "content_percent": "70-80%",
+              "metabolic_pathway": "PATH_05",
+              "fermentation_products": ["短鎖脂肪酸"],
+              "clinical_effects": ["免疫調整"],
+              "bioavailability": "中"
+            }
+          },
+          "半夏": {
+            "phytochemicals": [
+              {
+                "name": "ホモゲンチジン酸",
+                "type": "フェノール酸",
+                "concentration_mg_per_g": "1.0-2.5",
+                "metabolic_pathway": "PATH_04",
+                "active_metabolite": "ホモゲンチジン酸",
+                "mechanism": "制吐",
+                "clinical_effects": ["吐き気改善"],
+                "bioavailability": "高"
+              }
+            ]
+          },
+          "当帰": {
+            "phytochemicals": [
+              {
+                "name": "リグスチリド",
+                "type": "フタリド",
+                "concentration_mg_per_g": "1.5-3.0",
+                "metabolic_pathway": "PATH_01",
+                "active_metabolite": "リグスチリド",
+                "mechanism": "造血促進",
+                "clinical_effects": ["貧血改善"],
+                "bioavailability": "中"
+              }
+            ]
+          },
+          "川芎": {
+            "phytochemicals": [
+              {
+                "name": "テトラメチルピラジン",
+                "type": "アルカロイド",
+                "concentration_mg_per_g": "0.3-0.8",
+                "metabolic_pathway": "PATH_01",
+                "active_metabolite": "テトラメチルピラジン",
+                "mechanism": "血流改善",
+                "clinical_effects": ["冷え改善"],
+                "bioavailability": "高"
+              }
+            ]
+          },
+          "芍薬": {
+            "phytochemicals": [
+              {
+                "name": "パエオニフロリン",
+                "type": "モノテルペン配糖体",
+                "concentration_mg_per_g": "3.0-6.0",
+                "metabolic_pathway": "PATH_01",
+                "active_metabolite": "パエオニフロリゲニン",
+                "mechanism": "鎮痙",
+                "clinical_effects": ["疼痛緩和"],
+                "bioavailability": "中"
+              }
+            ]
+          },
+          "白芷": {
+            "phytochemicals": [
+              {
+                "name": "ビアクアンゲリコール",
+                "type": "クマリン",
+                "concentration_mg_per_g": "0.5-1.2",
+                "metabolic_pathway": "PATH_04",
+                "active_metabolite": "ビアクアンゲリコール",
+                "mechanism": "鎮痛",
+                "clinical_effects": ["頭痛改善"],
+                "bioavailability": "中"
+              }
+            ]
+          },
+          "枳実": {
+            "phytochemicals": [
+              {
+                "name": "シネフリン",
+                "type": "アルカロイド",
+                "concentration_mg_per_g": "0.3-0.8",
+                "metabolic_pathway": "PATH_01",
+                "active_metabolite": "シネフリン",
+                "mechanism": "代謝促進",
+                "clinical_effects": ["冷え改善"],
+                "bioavailability": "高"
+              }
+            ]
+          },
+          "桔梗": {
+            "phytochemicals": [
+              {
+                "name": "プラチコジン",
+                "type": "トリテルペンサポニン",
+                "concentration_mg_per_g": "2.0-4.0",
+                "metabolic_pathway": "PATH_01",
+                "active_metabolite": "プラチコジン",
+                "mechanism": "去痰",
+                "clinical_effects": ["痰の排出"],
+                "bioavailability": "低"
+              }
+            ]
+          },
+          "乾姜": {
+            "phytochemicals": [
+              {
+                "name": "6-ジンゲロール",
+                "type": "フェノール",
+                "concentration_mg_per_g": "0.8-2.0",
+                "metabolic_pathway": "PATH_04",
+                "active_metabolite": "6-ショウガオール",
+                "mechanism": "温熱作用",
+                "clinical_effects": ["冷え改善"],
+                "bioavailability": "高"
+              }
+            ]
+          },
+          "桂枝": {
+            "phytochemicals": [
+              {
+                "name": "桂皮酸",
+                "type": "フェニルプロパノイド",
+                "concentration_mg_per_g": "1.0-2.5",
+                "metabolic_pathway": "PATH_01",
+                "active_metabolite": "桂皮酸",
+                "mechanism": "血流改善",
+                "clinical_effects": ["冷え改善"],
+                "bioavailability": "高"
+              }
+            ]
+          },
+          "麻黄": {
+            "phytochemicals": [
+              {
+                "name": "エフェドリン",
+                "type": "アルカロイド",
+                "concentration_mg_per_g": "0.5-1.5",
+                "metabolic_pathway": "PATH_01",
+                "active_metabolite": "ノルエフェドリン",
+                "mechanism": "発汗",
+                "clinical_effects": ["冷え改善"],
+                "bioavailability": "高"
+              }
+            ]
+          }
+        },
+        "formula_synergy": {
+          "primary_pathway": "PATH_01",
+          "secondary_pathways": ["PATH_04", "PATH_05"],
+          "synergy_mechanism": "蒼朮・陳皮・厚朴・甘草の平胃散＋当帰・川芎・芍薬の四物湯＋麻黄・桂枝の発汗作用で冷えと痛みを改善",
+          "enhancement_factor": 2.5,
+          "key_minerals": ["Fe", "Mg", "Ca", "K"]
+        },
+        "indications": {
+          "primary": ["冷え症", "関節痛", "感冒", "胃腸炎"],
+          "secondary": ["頭痛", "月経痛", "腰痛"],
+          "contraindications": ["実証", "急性熱性疾患"]
+        },
+        "mbt55_optimization": {
+          "recommended_strains": ["MBT55-001", "MBT55-003", "MBT55-004", "MBT55-005"],
+          "fermentation_time": "24-36時間",
+          "enhanced_compounds": ["ノルエフェドリン", "リグスチリド", "パエオニフロリゲニン", "桂皮酸"],
+          "bioavailability_boost": "2-5倍"
+        }
+      },
+      "F167": {
+        "id": "F167",
+        "name": "牛車地黄丸",
+        "category": "腰痛・頻尿",
+        "main_herbs": ["地黄", "山薬", "山茱萸", "沢瀉", "茯苓", "牡丹皮", "桂枝", "附子", "牛膝", "車前子"],
+        "components": {
+          "地黄": {
+            "phytochemicals": [
+              {
+                "name": "カタルポール",
+                "type": "イリドイド配糖体",
+                "concentration_mg_per_g": "2.5-5.0",
+                "metabolic_pathway": "PATH_02",
+                "key_microbes": ["放線菌"],
+                "active_metabolite": "カタルポールアグリコン",
+                "mechanism": "抗老化・腎保護",
+                "clinical_effects": ["老化抑制", "頻尿改善"],
+                "bioavailability": "低"
+              }
+            ]
+          },
+          "山薬": {
+            "phytochemicals": [
+              {
+                "name": "ジオスゲニン",
+                "type": "ステロイドサポニン",
+                "concentration_mg_per_g": "0.8-1.5",
+                "metabolic_pathway": "PATH_03",
+                "active_metabolite": "ジオスゲニン",
+                "mechanism": "ホルモン調整",
+                "clinical_effects": ["ホルモンバランス改善"],
+                "bioavailability": "中"
+              }
+            ]
+          },
+          "山茱萸": {
+            "phytochemicals": [
+              {
+                "name": "モロニサイド",
+                "type": "イリドイド配糖体",
+                "concentration_mg_per_g": "1.5-3.0",
+                "metabolic_pathway": "PATH_02",
+                "active_metabolite": "モロニサイドアグリコン",
+                "mechanism": "抗酸化",
+                "clinical_effects": ["老化抑制"],
+                "bioavailability": "中"
+              }
+            ]
+          },
+          "沢瀉": {
+            "phytochemicals": [
+              {
+                "name": "アリソールB",
+                "type": "トリテルペン",
+                "concentration_mg_per_g": "1.0-2.5",
+                "metabolic_pathway": "PATH_03",
+                "active_metabolite": "アリソールB",
+                "mechanism": "利尿",
+                "clinical_effects": ["浮腫改善"],
+                "bioavailability": "中"
+              }
+            ]
+          },
+          "茯苓": {
+            "polysaccharides": {
+              "type": "β-グルカン",
+              "content_percent": "70-80%",
+              "metabolic_pathway": "PATH_05",
+              "fermentation_products": ["短鎖脂肪酸"],
+              "clinical_effects": ["免疫調整", "利尿"],
+              "bioavailability": "中"
+            }
+          },
+          "牡丹皮": {
+            "phytochemicals": [
+              {
+                "name": "パエオノール",
+                "type": "フェノール",
+                "concentration_mg_per_g": "2.0-4.5",
+                "metabolic_pathway": "PATH_01",
+                "active_metabolite": "パエオノール",
+                "mechanism": "血流改善",
+                "clinical_effects": ["冷え改善"],
+                "bioavailability": "高"
+              }
+            ]
+          },
+          "桂枝": {
+            "phytochemicals": [
+              {
+                "name": "桂皮酸",
+                "type": "フェニルプロパノイド",
+                "concentration_mg_per_g": "1.0-2.5",
+                "metabolic_pathway": "PATH_01",
+                "active_metabolite": "桂皮酸",
+                "mechanism": "血管拡張",
+                "clinical_effects": ["冷え改善"],
+                "bioavailability": "高"
+              }
+            ]
+          },
+          "附子": {
+            "phytochemicals": [
+              {
+                "name": "アコニチン",
+                "type": "ジテルペンアルカロイド",
+                "concentration_mg_per_g": "0.05-0.15",
+                "metabolic_pathway": "PATH_01",
+                "key_microbes": ["放線菌"],
+                "active_metabolite": "ベンゾイルアコニン",
+                "mechanism": "鎮痛・温熱作用",
+                "clinical_effects": ["神経痛改善", "冷え改善"],
+                "bioavailability": "低",
+                "caution": "毒性成分"
+              }
+            ]
+          },
+          "牛膝": {
+            "phytochemicals": [
+              {
+                "name": "エクジステロン",
+                "type": "ステロイド",
+                "concentration_mg_per_g": "0.3-0.8",
+                "metabolic_pathway": "PATH_03",
+                "active_metabolite": "エクジステロン",
+                "mechanism": "タンパク質合成促進",
+                "clinical_effects": ["筋力増強", "抗疲労"],
+                "bioavailability": "中"
+              }
+            ]
+          },
+          "車前子": {
+            "phytochemicals": [
+              {
+                "name": "オーキュビン",
+                "type": "イリドイド配糖体",
+                "concentration_mg_per_g": "0.5-1.5",
+                "metabolic_pathway": "PATH_02",
+                "active_metabolite": "オーキュビン",
+                "mechanism": "利尿",
+                "clinical_effects": ["排尿改善"],
+                "bioavailability": "中"
+              }
+            ],
+            "polysaccharides": {
+              "type": "ムチレージ",
+              "content_percent": "10-20%",
+              "metabolic_pathway": "PATH_05",
+              "clinical_effects": ["粘膜保護"]
+            }
+          }
+        },
+        "formula_synergy": {
+          "primary_pathway": "PATH_02",
+          "secondary_pathways": ["PATH_01", "PATH_03", "PATH_05"],
+          "synergy_mechanism": "八味地黄丸に牛膝・車前子を加え、下半身の症状（腰痛・神経痛・頻尿）に特化",
+          "enhancement_factor": 2.5,
+          "key_minerals": ["Fe", "Zn", "K", "Ca"]
+        },
+        "indications": {
+          "primary": ["腰痛", "坐骨神経痛", "頻尿", "排尿困難"],
+          "secondary": ["下肢冷え", "むくみ", "高血圧", "白内障"],
+          "contraindications": ["熱証", "急性炎症"]
+        },
+        "mbt55_optimization": {
+          "recommended_strains": ["MBT55-001", "MBT55-002", "MBT55-005"],
+          "fermentation_time": "36-48時間",
+          "enhanced_compounds": ["カタルポールアグリコン", "ベンゾイルアコニン", "エクジステロン"],
+          "bioavailability_boost": "3-8倍"
+        }
+      },
+      "F168": {
+        "id": "F168",
+        "name": "柴胡清肝湯",
+        "category": "小児疾患・腺病質",
+        "main_herbs": ["柴胡", "黄芩", "山梔子", "当帰", "川芎", "芍薬", "地黄", "連翹", "桔梗", "牛蒡子", "甘草", "薄荷"],
+        "components": {
+          "柴胡": {
+            "phytochemicals": [
+              {
+                "name": "サイコサポニンA",
+                "type": "トリテルペンサポニン",
+                "concentration_mg_per_g": "1.0-2.5",
+                "metabolic_pathway": "PATH_01",
+                "key_microbes": ["放線菌"],
+                "active_metabolite": "プロサイコゲニン",
+                "mechanism": "抗炎症・抗ストレス",
+                "clinical_effects": ["ストレス緩和"],
+                "bioavailability": "低"
+              }
+            ]
+          },
+          "黄芩": {
+            "phytochemicals": [
+              {
+                "name": "バイカリン",
+                "type": "フラボノイド配糖体",
+                "concentration_mg_per_g": "5.0-10.0",
+                "metabolic_pathway": "PATH_01",
+                "active_metabolite": "バイカレイン",
+                "mechanism": "抗炎症",
+                "clinical_effects": ["炎症抑制"],
+                "bioavailability": "中"
+              }
+            ]
+          },
+          "山梔子": {
+            "phytochemicals": [
+              {
+                "name": "ゲニポシド",
+                "type": "イリドイド配糖体",
+                "concentration_mg_per_g": "3.0-6.0",
+                "metabolic_pathway": "PATH_02",
+                "active_metabolite": "ゲニピン",
+                "mechanism": "抗炎症",
+                "clinical_effects": ["炎症抑制"],
+                "bioavailability": "中"
+              }
+            ]
+          },
+          "当帰": {
+            "phytochemicals": [
+              {
+                "name": "リグスチリド",
+                "type": "フタリド",
+                "concentration_mg_per_g": "1.5-3.0",
+                "metabolic_pathway": "PATH_01",
+                "active_metabolite": "リグスチリド",
+                "mechanism": "造血促進",
+                "clinical_effects": ["貧血改善"],
+                "bioavailability": "中"
+              }
+            ]
+          },
+          "川芎": {
+            "phytochemicals": [
+              {
+                "name": "テトラメチルピラジン",
+                "type": "アルカロイド",
+                "concentration_mg_per_g": "0.3-0.8",
+                "metabolic_pathway": "PATH_01",
+                "active_metabolite": "テトラメチルピラジン",
+                "mechanism": "血流改善",
+                "clinical_effects": ["冷え改善"],
+                "bioavailability": "高"
+              }
+            ]
+          },
+          "芍薬": {
+            "phytochemicals": [
+              {
+                "name": "パエオニフロリン",
+                "type": "モノテルペン配糖体",
+                "concentration_mg_per_g": "3.0-6.0",
+                "metabolic_pathway": "PATH_01",
+                "active_metabolite": "パエオニフロリゲニン",
+                "mechanism": "鎮痙",
+                "clinical_effects": ["疼痛緩和"],
+                "bioavailability": "中"
+              }
+            ]
+          },
+          "地黄": {
+            "phytochemicals": [
+              {
+                "name": "カタルポール",
+                "type": "イリドイド配糖体",
+                "concentration_mg_per_g": "2.5-5.0",
+                "metabolic_pathway": "PATH_02",
+                "active_metabolite": "カタルポールアグリコン",
+                "mechanism": "造血",
+                "clinical_effects": ["貧血改善"],
+                "bioavailability": "低"
+              }
+            ]
+          },
+          "連翹": {
+            "phytochemicals": [
+              {
+                "name": "フォルシトサイド",
+                "type": "フェニルエタノイド配糖体",
+                "concentration_mg_per_g": "1.0-2.5",
+                "metabolic_pathway": "PATH_01",
+                "active_metabolite": "フォルシトサイド",
+                "mechanism": "抗菌・抗炎症",
+                "clinical_effects": ["感染抑制"],
+                "bioavailability": "中"
+              }
+            ]
+          },
+          "桔梗": {
+            "phytochemicals": [
+              {
+                "name": "プラチコジン",
+                "type": "トリテルペンサポニン",
+                "concentration_mg_per_g": "2.0-4.0",
+                "metabolic_pathway": "PATH_01",
+                "active_metabolite": "プラチコジン",
+                "mechanism": "去痰",
+                "clinical_effects": ["痰の排出"],
+                "bioavailability": "低"
+              }
+            ]
+          },
+          "牛蒡子": {
+            "phytochemicals": [
+              {
+                "name": "アルクチゲニン",
+                "type": "リグナン",
+                "concentration_mg_per_g": "0.5-1.2",
+                "metabolic_pathway": "PATH_01",
+                "active_metabolite": "アルクチゲニン",
+                "mechanism": "抗炎症",
+                "clinical_effects": ["炎症抑制"],
+                "bioavailability": "中"
+              }
+            ]
+          },
+          "甘草": {
+            "phytochemicals": [
+              {
+                "name": "グリチルリチン",
+                "type": "トリテルペンサポニン",
+                "concentration_mg_per_g": "2.0-4.0",
+                "metabolic_pathway": "PATH_01",
+                "active_metabolite": "グリチルレチン酸",
+                "mechanism": "抗炎症",
+                "clinical_effects": ["炎症抑制"],
+                "bioavailability": "中"
+              }
+            ]
+          },
+          "薄荷": {
+            "phytochemicals": [
+              {
+                "name": "メントール",
+                "type": "モノテルペン",
+                "concentration_mg_per_g": "1.0-2.5",
+                "metabolic_pathway": "PATH_04",
+                "active_metabolite": "メントール",
+                "mechanism": "清涼感・抗炎症",
+                "clinical_effects": ["爽快感"],
+                "bioavailability": "高"
+              }
+            ]
+          }
+        },
+        "formula_synergy": {
+          "primary_pathway": "PATH_01",
+          "secondary_pathways": ["PATH_02", "PATH_04"],
+          "synergy_mechanism": "柴胡の抗ストレス作用＋四物湯の補血作用＋連翹・桔梗の抗炎症作用で小児の腺病質を改善",
+          "enhancement_factor": 2.3,
+          "key_minerals": ["Fe", "Zn", "Mg", "Ca"]
+        },
+        "indications": {
+          "primary": ["小児腺病質", "リンパ節炎", "中耳炎", "扁桃炎"],
+          "secondary": ["湿疹", "じんましん", "神経質"],
+          "contraindications": ["実証", "急性感染症"]
+        },
+        "mbt55_optimization": {
+          "recommended_strains": ["MBT55-001", "MBT55-003", "MBT55-004"],
+          "fermentation_time": "24時間",
+          "enhanced_compounds": ["プロサイコゲニン", "バイカレイン", "リグスチリド", "フォルシトサイド"],
+          "bioavailability_boost": "2-5倍"
+        }
+      },
+      "F169": {
+        "id": "F169",
+        "name": "柴朴湯",
+        "category": "喘息・不安",
+        "main_herbs": ["柴胡", "半夏", "厚朴", "茯苓", "紫蘇葉", "生姜", "大棗", "人参", "甘草"],
+        "components": {
+          "柴胡": {
+            "phytochemicals": [
+              {
+                "name": "サイコサポニンA",
+                "type": "トリテルペンサポニン",
+                "concentration_mg_per_g": "1.0-2.5",
+                "metabolic_pathway": "PATH_01",
+                "key_microbes": ["放線菌"],
+                "active_metabolite": "プロサイコゲニン",
+                "mechanism": "抗ストレス",
+                "clinical_effects": ["不安改善"],
+                "bioavailability": "低"
+              }
+            ]
+          },
+          "半夏": {
+            "phytochemicals": [
+              {
+                "name": "ホモゲンチジン酸",
+                "type": "フェノール酸",
+                "concentration_mg_per_g": "1.0-2.5",
+                "metabolic_pathway": "PATH_04",
+                "active_metabolite": "ホモゲンチジン酸",
+                "mechanism": "制吐",
+                "clinical_effects": ["吐き気改善"],
+                "bioavailability": "高"
+              }
+            ]
+          },
+          "厚朴": {
+            "phytochemicals": [
+              {
+                "name": "マグノロール",
+                "type": "リグナン",
+                "concentration_mg_per_g": "2.0-5.0",
+                "metabolic_pathway": "PATH_01",
+                "active_metabolite": "マグノロール",
+                "mechanism": "抗不安・気管支拡張",
+                "clinical_effects": ["喘息改善", "不安改善"],
+                "bioavailability": "中"
+              },
+              {
+                "name": "ホノキオール",
+                "type": "リグナン",
+                "concentration_mg_per_g": "1.0-3.0",
+                "metabolic_pathway": "PATH_01",
+                "active_metabolite": "ホノキオール",
+                "mechanism": "抗不安",
+                "clinical_effects": ["リラックス効果"],
+                "bioavailability": "中"
+              }
+            ]
+          },
+          "茯苓": {
+            "polysaccharides": {
+              "type": "β-グルカン",
+              "content_percent": "70-80%",
+              "metabolic_pathway": "PATH_05",
+              "fermentation_products": ["短鎖脂肪酸", "GABA"],
+              "clinical_effects": ["精神安定"],
+              "bioavailability": "中"
+            }
+          },
+          "紫蘇葉": {
+            "phytochemicals": [
+              {
+                "name": "ペリルアルデヒド",
+                "type": "モノテルペン",
+                "concentration_mg_per_g": "1.0-3.0",
+                "metabolic_pathway": "PATH_04",
+                "active_metabolite": "ペリルアルデヒド",
+                "mechanism": "抗不安・鎮静",
+                "clinical_effects": ["リラックス効果", "咳止め"],
+                "bioavailability": "高"
+              },
+              {
+                "name": "ロスマリン酸",
+                "type": "フェノール酸",
+                "concentration_mg_per_g": "0.5-1.5",
+                "metabolic_pathway": "PATH_01",
+                "active_metabolite": "ロスマリン酸",
+                "mechanism": "抗酸化・抗炎症",
+                "clinical_effects": ["抗アレルギー"],
+                "bioavailability": "中"
+              }
+            ]
+          },
+          "生姜": {
+            "phytochemicals": [
+              {
+                "name": "6-ジンゲロール",
+                "type": "フェノール",
+                "concentration_mg_per_g": "0.5-1.5",
+                "metabolic_pathway": "PATH_04",
+                "active_metabolite": "6-ショウガオール",
+                "mechanism": "抗炎症",
+                "clinical_effects": ["炎症抑制"],
+                "bioavailability": "高"
+              }
+            ]
+          },
+          "大棗": {
+            "polysaccharides": {
+              "type": "ペクチン",
+              "content_percent": "3-5%",
+              "metabolic_pathway": "PATH_05",
+              "fermentation_products": ["短鎖脂肪酸"],
+              "clinical_effects": ["整腸作用"]
+            }
+          },
+          "人参": {
+            "phytochemicals": [
+              {
+                "name": "ジンセノサイドRb1",
+                "type": "ダンマランサポニン",
+                "concentration_mg_per_g": "2.0-4.0",
+                "metabolic_pathway": "PATH_01",
+                "active_metabolite": "コンパウンドK",
+                "mechanism": "抗疲労",
+                "clinical_effects": ["疲労改善"],
+                "bioavailability": "低"
+              }
+            ]
+          },
+          "甘草": {
+            "phytochemicals": [
+              {
+                "name": "グリチルリチン",
+                "type": "トリテルペンサポニン",
+                "concentration_mg_per_g": "2.0-4.0",
+                "metabolic_pathway": "PATH_01",
+                "active_metabolite": "グリチルレチン酸",
+                "mechanism": "抗炎症",
+                "clinical_effects": ["炎症抑制"],
+                "bioavailability": "中"
+              }
+            ]
+          }
+        },
+        "formula_synergy": {
+          "primary_pathway": "PATH_01",
+          "secondary_pathways": ["PATH_04", "PATH_05"],
+          "synergy_mechanism": "小柴胡湯と半夏厚朴湯の合方で、喘息と不安を同時に改善",
+          "enhancement_factor": 2.4,
+          "key_minerals": ["Mg", "Ca", "Zn"]
+        },
+        "indications": {
+          "primary": ["喘息", "不安", "咳", "喉のつかえ"],
+          "secondary": ["不眠", "イライラ", "動悸"],
+          "contraindications": ["実証", "急性感染症"]
+        },
+        "mbt55_optimization": {
+          "recommended_strains": ["MBT55-001", "MBT55-003", "MBT55-004"],
+          "fermentation_time": "24-36時間",
+          "enhanced_compounds": ["プロサイコゲニン", "マグノロール", "GABA", "ペリルアルデヒド"],
+          "bioavailability_boost": "2-5倍"
+        }
+      },
+      "F170": {
+        "id": "F170",
+        "name": "柴苓湯",
+        "category": "浮腫・炎症",
+        "main_herbs": ["柴胡", "半夏", "黄芩", "人参", "甘草", "生姜", "大棗", "沢瀉", "茯苓", "猪苓", "白朮", "桂枝"],
+        "components": {
+          "柴胡": {
+            "phytochemicals": [
+              {
+                "name": "サイコサポニンA",
+                "type": "トリテルペンサポニン",
+                "concentration_mg_per_g": "1.0-2.5",
+                "metabolic_pathway": "PATH_01",
+                "key_microbes": ["放線菌"],
+                "active_metabolite": "プロサイコゲニン",
+                "mechanism": "抗炎症",
+                "clinical_effects": ["炎症抑制"],
+                "bioavailability": "低"
+              }
+            ]
+          },
+          "半夏": {
+            "phytochemicals": [
+              {
+                "name": "ホモゲンチジン酸",
+                "type": "フェノール酸",
+                "concentration_mg_per_g": "1.0-2.5",
+                "metabolic_pathway": "PATH_04",
+                "active_metabolite": "ホモゲンチジン酸",
+                "mechanism": "制吐",
+                "clinical_effects": ["吐き気改善"],
+                "bioavailability": "高"
+              }
+            ]
+          },
+          "黄芩": {
+            "phytochemicals": [
+              {
+                "name": "バイカリン",
+                "type": "フラボノイド配糖体",
+                "concentration_mg_per_g": "5.0-10.0",
+                "metabolic_pathway": "PATH_01",
+                "active_metabolite": "バイカレイン",
+                "mechanism": "抗炎症",
+                "clinical_effects": ["炎症抑制"],
+                "bioavailability": "中"
+              }
+            ]
+          },
+          "人参": {
+            "phytochemicals": [
+              {
+                "name": "ジンセノサイドRb1",
+                "type": "ダンマランサポニン",
+                "concentration_mg_per_g": "2.0-4.0",
+                "metabolic_pathway": "PATH_01",
+                "active_metabolite": "コンパウンドK",
+                "mechanism": "抗疲労",
+                "clinical_effects": ["疲労改善"],
+                "bioavailability": "低"
+              }
+            ]
+          },
+          "甘草": {
+            "phytochemicals": [
+              {
+                "name": "グリチルリチン",
+                "type": "トリテルペンサポニン",
+                "concentration_mg_per_g": "2.0-4.0",
+                "metabolic_pathway": "PATH_01",
+                "active_metabolite": "グリチルレチン酸",
+                "mechanism": "抗炎症",
+                "clinical_effects": ["炎症抑制"],
+                "bioavailability": "中"
+              }
+            ]
+          },
+          "生姜": {
+            "phytochemicals": [
+              {
+                "name": "6-ジンゲロール",
+                "type": "フェノール",
+                "concentration_mg_per_g": "0.5-1.5",
+                "metabolic_pathway": "PATH_04",
+                "active_metabolite": "6-ショウガオール",
+                "mechanism": "抗炎症",
+                "clinical_effects": ["炎症抑制"],
+                "bioavailability": "高"
+              }
+            ]
+          },
+          "大棗": {
+            "polysaccharides": {
+              "type": "ペクチン",
+              "content_percent": "3-5%",
+              "metabolic_pathway": "PATH_05",
+              "fermentation_products": ["短鎖脂肪酸"],
+              "clinical_effects": ["整腸作用"]
+            }
+          },
+          "沢瀉": {
+            "phytochemicals": [
+              {
+                "name": "アリソールB",
+                "type": "トリテルペン",
+                "concentration_mg_per_g": "1.0-2.5",
+                "metabolic_pathway": "PATH_03",
+                "active_metabolite": "アリソールB",
+                "mechanism": "利尿",
+                "clinical_effects": ["浮腫改善"],
+                "bioavailability": "中"
+              }
+            ]
+          },
+          "茯苓": {
+            "polysaccharides": {
+              "type": "β-グルカン",
+              "content_percent": "70-80%",
+              "metabolic_pathway": "PATH_05",
+              "fermentation_products": ["短鎖脂肪酸"],
+              "clinical_effects": ["免疫調整", "利尿"],
+              "bioavailability": "中"
+            }
+          },
+          "猪苓": {
+            "polysaccharides": {
+              "type": "β-グルカン",
+              "content_percent": "60-70%",
+              "metabolic_pathway": "PATH_05",
+              "fermentation_products": ["短鎖脂肪酸"],
+              "clinical_effects": ["免疫調整", "利尿"],
+              "bioavailability": "中"
+            }
+          },
+          "白朮": {
+            "phytochemicals": [
+              {
+                "name": "アトラクチレノリド",
+                "type": "セスキテルペン",
+                "concentration_mg_per_g": "0.5-1.2",
+                "metabolic_pathway": "PATH_04",
+                "active_metabolite": "アトラクチレノリド",
+                "mechanism": "利尿・消化促進",
+                "clinical_effects": ["浮腫改善", "食欲増進"],
+                "bioavailability": "高"
+              }
+            ]
+          },
+          "桂枝": {
+            "phytochemicals": [
+              {
+                "name": "桂皮酸",
+                "type": "フェニルプロパノイド",
+                "concentration_mg_per_g": "1.0-2.5",
+                "metabolic_pathway": "PATH_01",
+                "active_metabolite": "桂皮酸",
+                "mechanism": "血流改善",
+                "clinical_effects": ["冷え改善"],
+                "bioavailability": "高"
+              }
+            ]
+          }
+        },
+        "formula_synergy": {
+          "primary_pathway": "PATH_05",
+          "secondary_pathways": ["PATH_01", "PATH_03", "PATH_04"],
+          "synergy_mechanism": "小柴胡湯の抗炎症作用＋五苓散の利尿作用で浮腫を伴う炎症性疾患を改善",
+          "enhancement_factor": 2.5,
+          "key_minerals": ["K", "Mg", "Zn", "Ca"]
+        },
+        "indications": {
+          "primary": ["ネフローゼ", "腎炎", "浮腫", "肝炎"],
+          "secondary": ["水疱性皮膚炎", "リウマチ", "膠原病"],
+          "contraindications": ["脱水症状", "急性感染症"]
+        },
+        "mbt55_optimization": {
+          "recommended_strains": ["MBT55-001", "MBT55-002", "MBT55-004", "MBT55-005"],
+          "fermentation_time": "24-36時間",
+          "enhanced_compounds": ["プロサイコゲニン", "短鎖脂肪酸", "イオン化カリウム", "バイカレイン"],
+          "bioavailability_boost": "2-5倍"
+        }
+      }
+    }
+  }
+}
